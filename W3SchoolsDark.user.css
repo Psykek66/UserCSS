@@ -23,6 +23,7 @@
 #main {
     background-color: #202020;
 }
+
 #right {
     background-color: #202020;
 }
@@ -503,7 +504,7 @@ p .jskeywordcolor {
 }
 .htmlHigh p {
     color: #888 !important;
-}
+} 
 .htmlHigh > .jscolor .jskeywordcolor {
     color: #ffb349 !important;
 }
@@ -518,5 +519,29 @@ p .jskeywordcolor {
 }
 .cm-m-javascript {
     color: #999 !important;
+}
+.w3-border-green .htmlHigh > span > span, .w3-hide-small .l6 .w3-border-green > span > span > span {
+    color: #74b8f7 !important;
+}
+.w3-hide-small .l6 span span span span {
+    color: #888 !important;
+}
+.htmlHigh span span span, .w3-hide-small .l6 .cssHigh > span > span {
+    color: #ffb349 !important;
+}
+.sqlstringcolor, .w3-border-green .htmlHigh > span, .w3-hide-small .l6 .cssHigh > span {
+    color: #ff6161 !important;
+}
+.w3-hide-small .l6 .cssHigh {
+    border-left-color: #888 !important;
+}
+.w3-card-2 .w3-hover-shadow:hover {
+    color: #888 !important;
+}
+.sqlkeywordcolor, .w3-hide-small .l6 .sqlHigh span span {
+    color: #74baf7 !important;
+}
+.sqlcolor, .w3-hide-small .l6 .sqlHigh > span {
+    color: #888 !important;
 }
 }
