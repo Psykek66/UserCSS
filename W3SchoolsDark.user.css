@@ -9,9 +9,6 @@
 ==/UserStyle== */
 
 @-moz-document url-prefix("https://www.w3schools.com/") {
-body {
-    filter: invert(1);
-}
 .w3-container.top {
     background-color: #101010;
     color: #999;
