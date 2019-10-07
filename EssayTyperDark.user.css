@@ -1,0 +1,64 @@
+/* ==UserStyle==
+@name           EssayTyperDark
+@version        1.0.0
+@description    Night mode for essaytyper.com
+@author         Psykek/PrototypeChicken
+@namespace      github.com/Psykek66/UserCSS
+@homepageURL    https://github.com/Psykek66/UserCSS
+@updateURL      https://raw.githubusercontent.com/Psykek66/UserCSS/master/EssayTyperDark.user.css
+==/UserStyle== */
+
+@-moz-document url-prefix("http://www.essaytyper.com/") {
+#desk { 
+	background-image: url("https://c1.staticflickr.com/4/3187/2741458748_5c6f5fc4da_b.jpg")
+} 
+#sticky { 
+	background-color: #050505; 
+	border-radius: 5px; 
+} 
+#start { 
+	background-color: #202020 !important; 
+	box-shadow: none !important; 
+} 
+#start:hover { 
+	background-color: #000 !important 
+} 
+h1 { 
+	color: #303030; 
+} 
+p { 
+	color: #606060; 
+} 
+#sticky input { 
+	color: #707070; 
+} 
+#spread_sheet_back .slice { 
+	display: none; 
+} 
+#sheet_title { 
+	display: none; 
+} 
+#spread_sheet { 
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2dX8IY216i-XhjaagqI20R26tiG11geJxeLVhq7msx_7Q8XjLfQ"); 
+	filter: brightness(100%) 
+} 
+#spread_sheet_back #spread_sheet #essay_body { 
+	background-color: #050505; 
+	border-radius: 5px; 
+} 
+textarea { 
+	color: grey; 
+} 
+.center { 
+	display: none; 
+} 
+#desk-social { 
+	display: none; 
+} 
+#social_block { 
+	display: none; 
+} 
+#spread_sheet_back #spread_sheet #essay_body { 
+	padding-top: 80px 
+}
+}
