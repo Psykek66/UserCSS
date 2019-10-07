@@ -1088,4 +1088,25 @@ header {
 .in .dialog-content {
     background-color: #151515;
 }
+.make-card .ellipsis {
+    color: #000 !important;
+    background-color: #777;
+    margin-left: -42% !important;
+    padding-left: 5px;
+    margin-top: -6%;
+    padding-top: 5px;
+}
+.make-card .item-creator {
+    padding-top: 10px;
+}
+.make-card .item-date {
+    color: #000;
+    margin-top: -15px !important;
+    width: 100px;
+    margin-left: 140px;
+}
+.make-card .ellipsis a {
+    color: #202020;
+    text-decoration: underline;
+}
 }
