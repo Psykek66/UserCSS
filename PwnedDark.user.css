@@ -1,0 +1,192 @@
+/* ==UserStyle==
+@name           PwnedDark
+@version        1.0.0
+@description    Night mode for haveibeenpwned.com
+@author         Psykek/PrototypeChicken
+@namespace      github.com/Psykek66/UserCSS
+@homepageURL    https://github.com/Psykek66/UserCSS
+@updateURL      https://raw.githubusercontent.com/Psykek66/UserCSS/master/PwnedDark.user.css
+==/UserStyle== */
+
+
+@-moz-document url-prefix("https://haveibeenpwned.com/") {
+.navbar-static-top .container {
+    background-color: #101010;
+}
+.navbar-static-top {
+    background-color: #101010;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: #080808;
+    border-radius: 10px;
+    width: 100px;
+    text-align: center;
+}
+.nav > li {
+    background-color: #101010;
+}
+.navbar-inverse .navbar-nav > .active {
+    background-color: #101010;
+}
+.navbar-inverse .navbar-nav > .active > a:hover {
+    background-color: #202020;
+}
+.main {
+    background-color: #151515
+}
+.secondaryHeader {
+    background-color: #131313;
+}
+.tertiaryHeader {
+    background-color: #111111;
+    color: #808080;
+}
+body {
+    background-color: #111111;
+}
+.logoPanel p {
+    color: grey;
+}
+
+.input-group .form-control {
+    background-color: #202020;
+    box-shadow: none;
+}
+a.btn-primary {
+    border: 1px solid #100000!important;
+    background-color: #101010;
+}
+.btn-primary, a.btn-primary {
+    border: 1px solid black !important;
+    background-color: #101010;
+}
+a.btn-primary:hover {
+    background-color: #151515;
+}
+.btn-primary {
+    color: grey;
+}
+.main {
+    color: grey;
+}
+.main .main-logo .logo {
+    border-radius: 30px;
+    border: 5px solid #202020;
+    font-size: 5.15em;
+    padding: 8px 20px;
+    background-color: rgba(10,10,10,0.2);
+}
+.tertiaryHeader a.btn, .pwnResultBanner a.btn {
+    background-color: #090909;
+    color: #808080!important;
+    border: 1px solid black;
+    margin-left: 10px;
+}
+.tertiaryHeader a.btn:hover  {
+    background-color: #131313;
+    color: #808080!important;
+    border: 2px solid black;
+    margin-left: 10px;
+}
+.in img {
+    display: none;
+}
+.col-sm-3 {
+    color: grey;
+}
+.pwnCompany a {
+    color: #099099
+}
+.col-sm-6 h3 {
+    color: grey;
+}
+.dropdown-menu a {
+    background-color: #141414;
+}
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 0px 0;
+    margin: 0px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #202020;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+#noPwnage, #PwnedPasswordsDonate {
+    background: -moz-linear-gradient(-45deg,#101010 0,#000000 100%);
+    background: -webkit-gradient(linear,left top,right bottom,color-stop(0,#101010),color-stop(100%,#000000));
+    background: -webkit-linear-gradient(-45deg,#101010 0,#000000 100%);
+    background: -o-linear-gradient(-45deg,#101010 0,#000000 100%);
+    background: -ms-linear-gradient(-45deg,#101010 0,#000000 100%);
+    background: linear-gradient(135deg,#101010 0,#000000 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#101010',endColorstr='#000000',GradientType=1);
+}
+#noPwnage .pwnTitle a, #noPwnage .pwnTitle a:link {
+    padding: 0;
+    border-bottom: 1px solid #454545;
+}
+#noPwnage a, #noPwnage a:link, #noPwnage a:visited {
+    border-bottom-color: #454545;
+}
+#noPwnage a, #noPwnage a:link, #noPwnage a:visited {
+    border-bottom-color: #454545;
+}
+#noPastesFound a:hover {
+    background-color: #454545;    
+}
+#noPwnage a:hover {
+    background-color: #454545; 
+}
+.modal-header {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px 20px;
+    border-bottom: none;
+    background: -moz-linear-gradient(-45deg,#101010 0,#000000 100%);
+    background: -webkit-gradient(linear,left top,right bottom,color-stop(0,#101010),color-stop(100%,#000000));
+    background: -webkit-linear-gradient(-45deg,#101010 0,#000000 100%);
+    background: -o-linear-gradient(-45deg,#101010 0,#000000 100%);
+    background: -ms-linear-gradient(-45deg,#101010 0,#000000 100%);
+    background: linear-gradient(135deg,#101010 0,#000000 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#101010',endColorstr='#000000',GradientType=1);
+}
+.form-control {
+    color: grey;
+    background-color: #101010;
+}
+.table-bordered, .table-bordered>thead>tr>th, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>tbody>tr>td, .table-bordered>tfoot>tr>td {
+    border: 1px solid #505050;
+}
+.bg-info {
+    border-radius: 10px;
+    background-color: #181818;
+    color: grey;
+}
+code {
+    background-color: #202020;
+}
+.bodyGradient {
+    background: -moz-linear-gradient(-45deg,#101010 0,#0000000 100%);
+    background: -webkit-gradient(linear,left top,right bottom,color-stop(0,#101010),color-stop(100%,#101010));
+    background: -webkit-linear-gradient(-45deg,#101010 0,#000000 100%);
+    background: -o-linear-gradient(-45deg,#101010 0,#000000 100%);
+    background: -ms-linear-gradient(-45deg,#101010 0,#000000 100%);
+    background: linear-gradient(135deg,#101010 0,#000000 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0f1932',endColorstr='#000000',GradientType=1);
+    color: #fff;
+}
+}
