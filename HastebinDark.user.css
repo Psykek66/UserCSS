@@ -1,0 +1,43 @@
+/* ==UserStyle==
+@name           HasteDark
+@version        1.0.0
+@description    Night mode for hastebin.com
+@author         Psykek/PrototypeChicken
+@namespace      github.com/Psykek66/UserCSS
+@homepageURL    https://github.com/Psykek66/UserCSS
+@updateURL      https://raw.githubusercontent.com/Psykek66/UserCSS/master/HastebinDark.user.css
+==/UserStyle== */
+
+
+@-moz-document url-prefix("https://hastebin.com/") {
+body, .hljs {
+    background-color: #101010;
+}
+#box1 {
+    background-color: #202020;
+}
+#box2 {
+    background-color: #303030;
+}
+#box3 {
+    background-color: #363636;
+}
+body > textarea {
+    color: #808080;
+}
+#pointer, .logo, .save, .new, .duplicate, .raw, .twitter {
+    filter: grayscale(100%);
+}
+.shortcut {
+    color: #999 !important;
+}
+.label {
+    color: #cfcfcf !important;
+}
+.logo:hover {
+    filter: invert(50%);
+}
+body > pre {
+    color: #808080;
+}
+}
