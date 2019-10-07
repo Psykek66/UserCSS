@@ -9,7 +9,7 @@
 ==/UserStyle== */
 
 @-moz-document url-prefix("https://www.w3schools.com/") {
-  .w3-container.top {
+.w3-container.top {
     background-color: #101010;
     color: #999;
 }
@@ -28,7 +28,7 @@
     background-color: #202020;
 }
 .w3-example {
-    background-color: #303030;
+    background-color: red;
 }
 .cssHigh {
     background-color: #151515;
