@@ -133,7 +133,6 @@ a.btn-primary:hover {
     background: -o-linear-gradient(-45deg,#101010 0,#000000 100%);
     background: -ms-linear-gradient(-45deg,#101010 0,#000000 100%);
     background: linear-gradient(135deg,#101010 0,#000000 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#101010',endColorstr='#000000',GradientType=1);
 }
 #noPwnage .pwnTitle a, #noPwnage .pwnTitle a:link {
     padding: 0;
@@ -162,7 +161,6 @@ a.btn-primary:hover {
     background: -o-linear-gradient(-45deg,#101010 0,#000000 100%);
     background: -ms-linear-gradient(-45deg,#101010 0,#000000 100%);
     background: linear-gradient(135deg,#101010 0,#000000 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#101010',endColorstr='#000000',GradientType=1);
 }
 .form-control {
     color: grey;
@@ -180,13 +178,12 @@ code {
     background-color: #202020;
 }
 .bodyGradient {
-    background: -moz-linear-gradient(-45deg,#101010 0,#0000000 100%);
+    background: -moz-linear-gradient(-45deg,#101010 0,#000000 100%);
     background: -webkit-gradient(linear,left top,right bottom,color-stop(0,#101010),color-stop(100%,#101010));
     background: -webkit-linear-gradient(-45deg,#101010 0,#000000 100%);
     background: -o-linear-gradient(-45deg,#101010 0,#000000 100%);
     background: -ms-linear-gradient(-45deg,#101010 0,#000000 100%);
     background: linear-gradient(135deg,#101010 0,#000000 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0f1932',endColorstr='#000000',GradientType=1);
     color: #fff;
 }
 }
