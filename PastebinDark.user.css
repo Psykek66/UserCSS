@@ -1,0 +1,417 @@
+/* ==UserStyle==
+@name           PastebinDark
+@version        1.0.0
+@description    Night mode for pastebin.com
+@author         Psykek/PrototypeChicken
+@namespace      github.com/Psykek66/UserCSS
+@homepageURL    https://github.com/Psykek66/UserCSS
+@updateURL      https://raw.githubusercontent.com/Psykek66/UserCSS/master/PastebinDark.user.css
+==/UserStyle== */
+
+
+@-moz-document url-prefix("https://pastebin.com/") {
+#main_frame {
+    background-color: #101010;
+    border-color: #202020;
+}
+#content_frame {
+    background-color: #121212;
+    color: grey;
+}
+#monster_frame {
+    border-color: #050505;
+}
+.paste_form .content_title {
+    color: grey;
+    border-bottom-color: #080808;
+}
+.h_800 {
+    color: grey;
+}
+.form_login_frame {
+    border-color: #080808;
+}
+.form_text .button1 {
+    background-color: #303030;
+    border-color: #282828;
+}
+.form_avatar {
+    background-color: #202020;
+    border-color: #050505;
+}
+.select2-container--below .select2-selection {
+    background-color: #303030;
+    border-color: black;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: grey;
+}
+.select2-container--default .select2-selection--single {
+    background-color: #303030;
+    border-color: black;
+}
+.select2-container--open .select2-selection {
+    background-color: #303030;
+    border-color: black;
+}
+.select2-container .select2-selection--single {
+    background-color: #303030;
+    border-color: black;
+}
+.select2-container--default.select2-container--open.select2-container--below .select2-selection--single {
+    background-color: #303030;
+    border-color: black;
+}
+input.post_input {
+    background-color: #303030;
+    border-color: black;
+}
+input.button1 {
+    background-color: #303030;
+    border-bottom-color: #282828;
+}
+input[type="checkbox"] + label span {
+    background-color: #606060;
+    border-color: #606060;
+}
+#float-box-2 {
+    background-color: #202020;
+}
+textarea.paste_textarea {
+    background-color: #202020;
+    border-color: #060606;
+    width: 100%;
+}
+.no_border {
+    color: grey;
+}
+html {
+    background-color: #101010;
+}
+.cd-is-visible {
+    background-color: #202020;
+}
+#menu_2 a {
+    color: #B90000;
+}
+#menu_1 a {
+    color: #B90000;
+}
+#content_right {
+    display: none;
+}
+button.i_highlight {
+    opacity: 0.3;
+}
+#header {
+    background: #101010;
+    background-image: linear-gradient(#0000,#080808);
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.52);
+    color: grey;
+}
+.header_icon {
+    border-color: #090909;
+    border-radius: 1px;
+}
+#header_user_status {
+    color: grey;
+}
+span.msg_numb:hover, #header a {
+    color: grey;
+}
+span.msg_numb:hover, #header a:hover {
+    color: #fff;
+}
+.new_paste_button {
+    background: #303030 url(https://image.flaticon.com/icons/svg/25/25304.svg) no-repeat 8px 9px;
+    background-size: 13px 13px;
+    color: black;
+}
+.new_paste_button:hover {
+    background: #404040 url(https://image.flaticon.com/icons/svg/25/25304.svg) no-repeat 8px 9px;
+    background-size: 13px 13px;
+    color: black;
+}
+input.search_input, input.search_input_li {
+    background: #303030 url(http://www.stickpng.com/assets/images/585e4ae9cb11b227491c3394.png) no-repeat 7px 7px;
+    background-size: 16px;
+    color: #010101;
+}
+.header_icons {
+    opacity: 0.2;
+}
+#header_logo {
+    opacity: 0.6;
+}
+.jq-dropdown .jq-dropdown-menu li.dd_pa {
+    background-color: #202020;
+    color: grey;
+}
+.jq-dropdown .jq-dropdown-menu li.dd_me {
+    background-color: #202020;
+    color: grey;
+}
+.jq-dropdown .jq-dropdown-menu li.dd_al {
+    background-color: #202020;
+    color: grey;
+}
+.jq-dropdown .jq-dropdown-menu li.dd_pr {
+    background-color: #202020;
+    color: grey;
+}
+.jq-dropdown .jq-dropdown-menu li.dd_se {
+    background-color: #202020;
+    color: grey;
+}
+.jq-dropdown .jq-dropdown-menu li.dd_pw {
+    background-color: #202020;
+    color: grey;
+}
+.jq-dropdown .jq-dropdown-menu li {
+    background-color: #202020;
+    color: grey;
+}
+.jq-dropdown .jq-dropdown-menu li.dd_lo {
+    background-color: #202020;
+    color: grey;
+}
+#header_top {
+    clear: both;
+    height: 40px;
+    line-height: 40px;
+    padding: 5px;
+    background: url();
+}
+#code_frame div, #code_frame, ol, textarea.paste_code, .jq-dropdown .jq-dropdown-menu li.dd_su, .jq-dropdown .jq-dropdown-menu li.dd_lo, .button1, .input.button1, input[type="text"], input[type="password"], .tagline span, .button2, .select2-container--default .select2-selection--single .select2-selection__rendered, .select2-container--default .select2-selection--single, .select2-results__option, .select2-search--dropdown, .buttonsm {
+    background-color: #202020 !important;
+    color: #797979 !important;
+}
+.select2-container--default .select2-search--dropdown .select2-search__field {
+    border: 1px solid black;
+}
+.select2-container--default .select2-results__option--highlighted[aria-selected], .maintable td:hover, tr:hover {
+    background-color: #252525 !important;
+}
+.pro_frame {
+    background-color: #202020;
+    border-color: black;
+}
+.feature {
+    border-bottom: 1px solid #505050;
+}
+.feature_2 {
+    border-color: #505050;
+}
+.new_feature a {
+    color: #B90000;
+}
+.content_sub_title {
+    border-bottom-color: #505050;
+}
+.pro_frame_big {
+    border-color: #505050;
+}
+.pro_frame_life_top {
+    background-color: #252525;
+    border-color: #050505;
+    color: grey;
+}
+a {
+    color: #B90000;
+}
+a:hover {
+    color: #DF0000;
+}
+#notice {
+    background-color: #202020;
+    border-color: #050505;
+}
+.content_title {
+    color: grey;
+}
+.code_box {
+    background-color: #202020;
+    border-color: #101010;
+}
+span.mark {
+    background-color: #202020;
+    border-color: #202020;
+}
+.content_title {
+    border-color: #505050;
+}
+#content_left div td {
+    border-color: #505050;
+}
+#content_left div th {
+    border-color: #505050;
+}
+#content_left > .maintable td {
+    border-color: #505050;
+}
+#content_left > .maintable th {
+    border-color: #505050;
+}
+#error {
+    background-color: #202020;
+}
+.gsc-control-cse-en {
+    background-color: #202020;
+    border-color: #050505;
+}
+.gsc-expansionArea .gsc-webResult {
+    background-color: #202020;
+    border-color: #303030;
+}
+.gsc-webResult > .gsc-result {
+    background-color: #202020;
+    border-color: #303030;
+}
+.gsc-above-wrapper-area {
+    border-color: #303030;
+}
+.gsc-expansionArea .gs-snippet {
+    color: grey;
+}
+.gsc-webResult > .gsc-result .gs-snippet {
+    color: grey;
+}
+.gsc-expansionArea .gsc-result:hover {
+    background-color: #191919;
+    border-color: #191919;
+}
+.gsc-expansionArea .gs-snippet:hover {
+    background-color: #191919;
+    border-color: #191919;
+}
+.gs-webResult .gs-snippet:hover {
+    background-color: #191919;
+    border-color: #191919;
+}
+.gsc-webResult > .gsc-result:hover {
+    background-color: #191919;
+    border-color: #191919;
+}
+.gsc-selected-option-container {
+    border: 1px solid #0000;
+    border-radius: 2px;
+    color: #000000;
+    opacity: 0.1;
+    margin-right: 11px;
+    padding-left: 3px;
+    padding-right: 50px;
+}
+.gsc-control-cse .gsc-option-menu {
+    background: #353535;
+}
+.gsc-expansionArea .gsc-url-top .gs-visibleUrl-long {
+    color: #5D5D5D;
+}
+.gsc-webResult > .gsc-result .gsc-url-top .gs-visibleUrl-long {
+    color: #5D5D5D;
+}
+.gsc-results .gsc-cursor-box .gsc-cursor-current-page {
+    border-color: #303030;
+    background-color: #151515;
+    color: #606060;
+    border-radius: 20px;
+}
+.gsc-results .gsc-cursor-box .gsc-cursor-page {
+    border-color: #303030;
+    background-color: #151515;
+    color: #606060;
+}
+.i_p0 {
+    opacity: 0.5;
+}
+input.search_input_self {
+    border-color: #252525;
+}
+input.search_input_shop, input.search_input_self {
+    padding: 0 7px 0 34px;
+    width: 210px;
+    background: #101010 url(http://www.stickpng.com/assets/images/585e4ae9cb11b227491c3394.png) no-repeat 7px 7px;
+    background-size: auto;
+    background-size: 16px;
+    color: #000;
+    border: 1px solid #252525;
+}
+.gs-result .gs-title, .gs-result .gs-title * {
+    color: #B90000 !important;
+    text-decoration: none !important;
+    font-family: segoe ui,trebuchet MS,Lucida Sans Unicode,Lucida Sans,Sans-Serif !important;
+}
+.gs-result .gs-title, .gs-result .gs-title *:hover {
+    color: red !important;
+    text-decoration: none !important;
+    font-family: segoe ui,trebuchet MS,Lucida Sans Unicode,Lucida Sans,Sans-Serif !important;
+}
+b {
+    color: #999999;
+}
+.mark a {
+    color: #B90000;
+}
+.lang_div .mark {
+    background-color: #151515;
+    border-color: #090909;
+}
+#content_left > .maintable a {
+    color: #B90000;
+}
+#content_left > .maintable a:hover {
+    color: red;
+}
+.pro_btn {
+    opacity: 0.4;
+}
+.message_top {
+    background-color: #202020;
+    border-color: #202020;
+}
+.message_window {
+    border-color: #202020;
+}
+textarea.message_reply_textarea {
+    background-color: #202020;
+    border-color: #050505;
+}
+.button2 {
+    border-color: #252525;
+}
+fieldset.login_field {
+    border-color: grey;   
+}
+#code_buttons {
+    border-color: #202020;
+}
+#code_frame2 {
+    background-color: black;
+    border-color: black;
+}
+#code_frame div {
+    border-color: #080808;
+}
+.buttonsm {
+    border-color: #202020;
+}
+.paste_box_icon {
+    background-color: #101010;
+    border-color: #202020;
+}
+.paste_box_info h1 {
+    color: grey;
+}
+textarea.paste_code {
+    border-color: black;
+}
+body > pre {
+    background-color: #000;
+    margin: -8px;
+    padding: 10px;
+    color: grey;
+}
+textarea.paste_textarea {
+    color: grey;
+}
+}
