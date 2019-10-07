@@ -1,0 +1,223 @@
+/* ==UserStyle==
+@name           VGYDark
+@version        1.0.0
+@description    Night mode for vgy.me
+@author         Psykek/PrototypeChicken
+@namespace      github.com/Psykek66/UserCSS
+@homepageURL    https://github.com/Psykek66/UserCSS
+@updateURL      https://raw.githubusercontent.com/Psykek66/UserCSS/master/VGYDark.user.css
+==/UserStyle== */
+
+
+@-moz-document url-prefix("https://vgy.me/") {
+.navbar-fixed-top {
+    background-color: #000;
+}
+.navbar-left > li > a {
+    color: #888 !important;
+}
+.navbar-right a {
+    color: #888 !important;
+}
+.dz-message > span {
+    color: #EAEAEA;
+}
+body {
+    background-color: #040404;
+}
+.dropdown-menu {
+    background-color: #080808;
+    color: #555 !important
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    background-color: #060606;
+    color: #fff;
+}
+.dropdown-menu a {
+    color: #666 !important;
+}
+.dropdown-menu a:hover {
+    background-color: #000 !important;
+}
+.dz-clickable {
+    background-color: #040404;
+    border: 1px dashed #202020;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.fill {
+    display: none;
+}
+.col-xs-12 p {
+    color: #444;
+}
+h4 strong {
+    color: #666;
+}
+h1 {
+    color: #666;
+}
+.text-center > p {
+    color: #444;
+}
+.btn-lg {
+    background-color: #101010;
+    border-color: #101010;
+    color: #666;
+}
+small {
+    color: #666;
+}
+h3 strong {
+    color: #666;
+}
+h3 {
+    color: #666;
+}
+.fa-lock {
+    opacity: 0.4
+}
+.fa-tachometer {
+    opacity: 0.4
+}
+.fa-coffee {
+    opacity: 0.4
+}
+.fa-user-secret {
+    opacity: 0.4
+}
+.dz-message > span {
+    color: #444;
+}
+p {
+    color: #444;
+}
+.margin-top-20 li {
+    color: #444;
+}
+.margin-top-20 a {
+    color: #FF0000;
+}
+.text-muted {
+    color: #444;
+}
+.container pre {
+    background-color: #080808;
+    border-color: #101010;
+}
+code {
+    background-color: #080808;
+    border-color: #101010;
+}
+.navbar-left > li > a:hover {
+    background-color: #080808 !important;
+}
+.no-margin {
+    background-color: #040404 !important;
+}
+.form-group > label {
+    color: #666;
+}
+.form-control {
+    background-color: #101010;
+}
+.btn-primary {
+    background-color: #151515;
+    border-color: #151515;
+    color: #666;
+}
+.panel-body {
+    background-color: #080808;
+}
+.panel-footer {
+    background-color: #080808 !important;
+}
+.panel-default {
+    background-color: #101010;
+    border-color: #101010;
+}
+.well {
+    background-color: #040404;
+}
+.alert-info {
+    background-color: #080808;
+    border-color: #101010;
+}
+.margin-bottom-20 .btn-copy {
+    background-color: #181818;
+    border-color: #101010;
+}
+.btn-primary:hover {
+    background-color: #000;
+    border-color: #000;
+}
+.alert-info .btn-copy {
+    background-color: #181818;
+    border-color: #101010;
+}
+.btn-sm {
+    background-color: #101010;
+    border-color: #101010;
+    color: #555;
+}
+.modal-body {
+    background-color: #080808;
+}
+.modal-header {
+    background-color: #080808;
+    color: #555;
+}
+.btn-sm:hover {
+    background-color: #000;
+    border-color: #202020;
+    color: #999;
+}
+.btn-sm:focus {
+    background-color: #000;
+    border-color: #202020;
+    color: #999;
+}
+.well .no-margin-bottom .btn-default {
+    background-color: #181818;
+    border-color: #101010;
+}
+.progress-striped .progress-bar-success {
+    background-image: -webkit-linear-gradient(45deg, rgba(209,21,21,0.15) 25%, transparent 25%, transparent 50%, rgba(209,21,21,0.15) 50%, rgba(209,21,21,0.15) 75%, transparent 75%, transparent);
+    background-image: -o-linear-gradient(45deg, rgba(209,21,21,0.15) 25%, transparent 25%, transparent 50%, rgba(209,21,21,0.15) 50%, rgba(209,21,21,0.15) 75%, transparent 75%, transparent);
+    background-image: linear-gradient(45deg, rgba(209,21,21,0.15) 25%, transparent 25%, transparent 50%, rgba(209,21,21,0.15) 50%, rgba(209,21,21,0.15) 75%, transparent 75%, transparent);
+}
+.progress-striped .progress-bar, .progress-bar-striped {
+    background-image: -webkit-linear-gradient(45deg, rgba(209,21,21,0.15) 25%, transparent 25%, transparent 50%, rgba(209,21,21,0.15) 50%, rgba(209,21,21,0.15) 75%, transparent 75%, transparent);
+    background-image: -o-linear-gradient(45deg, rgba(209,21,21,0.15) 25%, transparent 25%, transparent 50%, rgba(209,21,21,0.15) 50%, rgba(209,21,21,0.15) 75%, transparent 75%, transparent);
+    background-image: linear-gradient(45deg, rgba(209,21,21,0.15) 25%, transparent 25%, transparent 50%, rgba(209,21,21,0.15) 50%, rgba(209,21,21,0.15) 75%, transparent 75%, transparent);
+    -webkit-background-size: 40px 40px;
+    background-size: 40px 40px;
+}
+.progress-bar-success {
+    background-color: #000;
+}
+.progress-striped {
+    background-color: #080808 !important;
+}
+.alert-warning {
+    background-color: #101010;
+    border-color: #101010;
+}
+.alert-warning strong {
+    color: #707070;
+}
+.alert-warning p {
+    color: #505050 !important;
+}
+.alert-info .fa-fw, .no-margin-bottom .btn-default .fa-fw, .margin-bottom-20 .fa-fw {
+    filter: invert(50%);
+}
+.btn-primary .fa-twitter, .fa-facebook, .fa-google-plus, .fa-tumblr, .fa-reddit, .fa-pinterest {
+    color: #707070;
+}
+.tooltip-inner {
+    color: #909090;
+    background-color: #202020;
+}
+}
