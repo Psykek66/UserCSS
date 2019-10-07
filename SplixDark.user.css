@@ -1,0 +1,66 @@
+/* ==UserStyle==
+@name           SplixDark
+@version        1.0.0
+@description    Night mode for splix.io
+@author         Psykek/PrototypeChicken
+@namespace      github.com/Psykek66/UserCSS
+@homepageURL    https://github.com/Psykek66/UserCSS
+@updateURL      https://raw.githubusercontent.com/Psykek66/UserCSS/master/SplixDark.user.css
+==/UserStyle== */
+
+
+@-moz-document url-prefix("http://splix.io/") {
+#beginScreen {
+    background-color: #000;
+}
+#nameForm {
+    background-color: #101010; 
+}
+.greenBox {
+    background-color: #101010;
+    box-shadow: 1px 1px #151515,2px 2px #151515,3px 3px #151515,4px 4px #151515,5px 5px #151515,10px 30px 80px rgba(0,0,0,.3);
+    border-radius: 3px;
+}
+#nameInput {
+    background-color: #252525;
+    box-shadow: 1px 1px #151515,2px 2px #151515,3px 3px #151515,4px 4px #151515,5px 5px #151515,10px 30px 80px rgba(0,0,0,.3);
+    border-radius: 3px;
+}
+#gamemodeSelect {
+    background-color: #131313;
+    box-shadow: 1px 1px #151515,2px 2px #151515,3px 3px #151515,4px 4px #151515,5px 5px #151515,10px 30px 80px rgba(0,0,0,.3);
+    border-radius: 3px;
+    color: #555;
+}
+#joinButton {
+    background-color: #131313;
+    box-shadow: 1px 1px #151515,2px 2px #151515,3px 3px #151515,4px 4px #151515,5px 5px #151515,10px 30px 80px rgba(0,0,0,.3);
+    border-radius: 3px;
+    color: #555;
+}
+#promobox {
+    display: none;
+}
+#newsbox {
+    color: #555;
+}
+#lastStatsLeft, #bestStatsLeft {
+    color: #c4c4c4;
+}
+#lastStatsRight, #bestStatsRight {
+    color: #999;
+}
+#tutorialText {
+    color: #c4c4c4;
+}
+.sideboxContent a {
+    color: #b2b2b2;
+}
+#shareToUnlock {
+    filter: invert(30%);
+}
+#cornerLinks a {
+    color: #999;
+}
+
+}
