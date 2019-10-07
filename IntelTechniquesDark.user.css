@@ -1,0 +1,193 @@
+/* ==UserStyle==
+@name           IntelTechniquesDark
+@version        1.0.0
+@description    Night mode for inteltechniques.com
+@author         Psykek/PrototypeChicken
+@namespace      github.com/Psykek66/UserCSS
+@homepageURL    https://github.com/Psykek66/UserCSS
+@updateURL      https://raw.githubusercontent.com/Psykek66/UserCSS/master/IntelTechniquesDark.user.css
+==/UserStyle== */
+
+
+@-moz-document url-prefix("https://inteltechniques.com/") {
+body {
+    background-color: #050505;
+}
+.content, .footer, .corner-page-bottom, .main, .navbar, .corner-page-top, .header, .header-top {
+    background-color: #101010;
+    border-color: #101010;
+}
+.navbar a {
+    background-color: #303030;
+    color: #999 !important;
+}
+.corner-content-1col-top, .content-1col-nobox {
+    background-color: #303030;
+}
+.webtemplate2 {
+    color: #999 !important;
+    border-bottom-color: #202020 !important;
+}
+.corner-content-1col-top, .corner-content-1col-bottom {
+    filter: invert(70%)
+}
+.content table td {
+    background-color: #303030;
+    border: 0px solid;
+    border-color: #202020;
+}
+.content-1col-nobox img {
+    filter: invert(50%)
+}
+td a {
+    color: #999 !important;
+    text-decoration: underline !important;
+}
+.footer p {
+   color: #707070; 
+}
+.footer a {
+    color: #999;
+}
+.footer a:hover {
+    color: #eaeaea !important;
+    text-decoration: underline !important;
+}
+.subcontent-box {
+    background-color: #303030;
+    color: #808080;
+}
+.subcontent-box p {
+    color: #808080;
+}
+.document2 {
+    border-bottom-color: #303030 !important;
+}
+.corner-subcontent-top, .corner-subcontent-bottom {
+    filter: invert(67%);
+}
+.subcontent {
+    background-color: #101010;
+}
+.subcontent-box a {
+    color: #999;
+}
+.sitename img {
+    filter: invert(50%);
+}
+.navbar a:hover {
+    background-color: #202020 !important;
+}
+.content-1col-nobox img:hover {
+    filter: invert(90%);
+}
+td a:hover {
+    color: #eaeaea !important;
+}
+.content-1col-nobox a {
+    color: #808080;
+}
+.content-1col-nobox h1 {
+    border-bottom-color: #808080;
+}
+.menu {
+    border-bottom-color: #808080 !important;
+}
+h3 {
+    color: #808080;
+    text-decoration: underline;
+}
+.content-1col-nobox p {
+    color: #888;
+}
+input {
+    background-color: #505050;
+    border: 1px solid;
+    border-color: #242424;
+    color: #101010;
+    padding: 2px;
+}
+.custom-html-widget a:hover {
+    color: #d4d4d4;
+}
+hr {
+    filter: invert(50%);
+}
+.wpcw_fe_table {
+    background-color: #505050 !important;
+    border-color: #202020 !important;
+}
+.subcontent table td {
+    background-color: #505050 !important;
+    color: #101010;
+    border-color: #202020 !important;
+}
+#wpcw_fe_course td {
+    border-right: 1px solid;
+}
+td {
+    color: #999 !important;
+}
+.main img {
+    filter: none;
+}
+.aligncenter:hover {
+    filter: hue-rotate(210deg) !important;
+} 
+.aligncenter {
+    border: none !important;
+}
+.alignnone {
+    border: none !important;
+}
+.wp-image-2201 {
+    filter: invert(100%) !important;
+}
+.sidemenu1 li a {
+    border-color: #808080 !important;
+}
+.sidemenu1 li a:hover {
+    color: #bababa !important;
+    background-color: #252525 !important;
+}
+.field {
+    background-color: #505050 !important;
+    border: 1px solid !important;
+    border-color: #202020 !important;
+    color: #101010 !important;
+    padding: 2px !important;
+}
+.button {
+    background-color: #505050 !important;
+    border: 1px solid !important;
+    border-color: #202020 !important;
+    color: #101010 !important;
+}
+.content-1col-nobox img {
+    filter: invert(100%)
+}
+.content-1col-nobox .document2 {
+    color: #888;
+}
+.style1 .style1 {
+    color: #808080;
+}
+.contact {
+    color: #888;
+}
+.style4 a {
+    color: #999 !important;
+}
+.content-1col-nobox img {
+    filter: invert(50%) !important;
+}
+.content-1col-nobox p img {
+    filter: none !important;
+}
+p a:hover {
+    color: #eaeaea !important;
+}
+p a {
+    color: #ababab !important;
+}
+}
