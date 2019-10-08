@@ -9,7 +9,7 @@
 ==/UserStyle== */
 
 
-@-moz-document url-prefix("https://www.thingiverse.com/") url-prefix("https://accounts.thingiverse.com/") {
+@-moz-document url-prefix("https://www.thingiverse.com/" "https://accounts.thingiverse.com/") {
 .site-header {
     background-image: linear-gradient(to bottom,#101010,#101010);
 }
