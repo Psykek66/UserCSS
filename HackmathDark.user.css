@@ -1,0 +1,158 @@
+/* ==UserStyle==
+@name           HackmathDark
+@version        1.0.0
+@description    Night mode for hackmath.net
+@author         Psykek/PrototypeChicken
+@namespace      github.com/Psykek66/UserCSS
+@homepageURL    https://github.com/Psykek66/UserCSS
+@updateURL      https://raw.githubusercontent.com/Psykek66/UserCSS/master/HackmathDark.user.css
+==/UserStyle== */
+
+
+@-moz-document url-prefix("https://www.hackmath.net/") {
+
+.navbar-fixed-top {
+    background-color: #050505;
+    color: #888;
+    border: none;
+}
+.navbar-left .form-control {
+    background-color: #151515;
+    border-color: #303030;
+    color: #888;
+}
+.btn-default {
+    background-color: #303030;
+    color: #999;
+    border-color: #404040;
+}
+.btn-default:hover {
+    background-color: #252525;
+    color: #999;
+    border-color: #404040;
+}
+svg {
+    fill: #999;
+}
+.navbar-nav .active a {
+    background-color: #151515 !important;
+    color: #999 !important;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+body {
+    background-color: #151515;
+    color: #999;
+}
+.col-sm-pull-9 .nav > li > a {
+    color: #777;
+    border-bottom: 0px dotted #999;
+    width: 150px;
+    text-align: left;
+}
+.col-sm-pull-9 .nav > li > a:hover {
+    color: #777;
+    border-bottom: 0px dotted #999;
+    width: 150px;
+    text-align: left;
+    background-color: #050505;
+}
+.panel-heading {
+    background-color: #050505 !important;
+    color: #777 !important;
+    border-color: #000 !important;
+}
+.panel-default {
+    border-color: #202020;
+    background-color: #202020;
+}
+li > .fraction .bottom, h3 .bottom {
+    border-color: #999;
+}
+.col-xs-12 .form-control {
+    background-color: #202020;
+    border-color: #050505;
+    color: #777;
+}
+.btn-primary {
+    background-color: #050505;
+    color: #888;
+    border:  1px solid #000;
+}
+.btn-primary:hover {
+    background-color: #080808;
+    color: #888;
+    border:  1px solid #000;
+}
+.footer {
+    background-color: #050505;
+    border: 1px solid #000;
+    margin-left: -1.2%;
+    margin-right: -1.2%;
+}
+.pagination a {
+    background-color: #101010 !important;
+    color: #777 !important;
+    border-color: #202020 !important;
+}
+.pagination .active a {
+    background-color: #050505 !important;
+    color: #888 !important;
+    border-color: #202020 !important;
+}
+.navbar-nav a:hover {
+    background-color: #050505 !important;
+    color: #999 !important;
+}
+.alert-info {
+    background-color :#202020;
+    color: #666;
+}
+.white .hide-on-phones {
+    display: none;
+}
+.hide-on-phones a:hover {
+    filter: invert(91.6%);
+}
+.alert-info.margin-bottom {
+    border-color: #202020;
+}
+.panel-body {
+    background-color: #101010;
+}
+.panel {
+    border-color: #000;
+    background-color: #000;
+}
+.example {
+    background-color: #101010;
+    border-color: #101010;
+    color: #666;
+}
+.form-control {
+    background-color: #202020;
+    border-color: #050505;
+    color: #888 !important;
+}
+.alert-danger {
+    background-color: #050505;
+    border: 1px solid #303030;
+    color: #666;
+}
+td {
+    border-color: #050505 !important;
+    background-color: #202020 !important;
+}
+.input-group-addon {
+    background-color: #101010;
+    border: 1px solid #050505;
+}
+.nnn {
+    background-color: #151515 !important
+}
+.img-thumbnail {
+    background-color: #080808;
+    border: 1px solid #101010;
+    
+}
+}
