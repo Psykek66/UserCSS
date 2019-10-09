@@ -8,7 +8,16 @@
 @updateURL      https://raw.githubusercontent.com/Psykek66/UserCSS/master/StylusDark.user.css
 ==/UserStyle== */
 
-@-moz-document url-prefix("moz-extension://5c52c1e8-5b45-47ab-8be3-858fa0a1dd7d/install-usercss"), url-prefix("moz-extension://5c52c1e8-5b45-47ab-8be3-858fa0a1dd7d/edit") {
+/* How to use without applying the style to every extension page 
+
+1. Click "Raw" on this page to open up the stylus installer
+2. Copy the link in the extension window that pops up
+3. Shorten the link so it looks like "moz-extension://some-random-characters-here" or "chrome-extension://some-random-characters-here"
+4. Paste the shortened link into the url-prefix section of the script
+
+You may have to redo this every time the stylus extension updates */
+
+@-moz-document url-prefix("moz-extension://"), url-prefix("chrome-extension://") {
 
 a {
     color: #999;        
