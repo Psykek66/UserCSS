@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           HackmathDark
-@version        1.0.0
+@version        1.0.5
 @description    Night mode for hackmath.net
 @author         Psykek/PrototypeChicken
 @namespace      github.com/Psykek66/UserCSS
@@ -74,12 +74,12 @@ li > .fraction .bottom, h3 .bottom {
     border-color: #050505;
     color: #777;
 }
-.btn-primary {
+.btn-primary, .btn {
     background-color: #050505;
     color: #888;
     border:  1px solid #000;
 }
-.btn-primary:hover {
+.btn-primary:hover, .btn:hover {
     background-color: #080808;
     color: #888;
     border:  1px solid #000;
@@ -153,6 +153,46 @@ td {
 .img-thumbnail {
     background-color: #080808;
     border: 1px solid #101010;
-    
+}
+.cmtbubble {
+    background-color: #050505 !important;
+    color: #888 !important;
+}
+.cmtnote {
+    color: #888 !important;
+}
+.cmtdiv .cmtnumber {
+    filter: invert(100%);
+}
+form .cmtnumber {
+    filter: invert(1);
+}
+.cmtbox {
+    background-color: #050505 !important;
+}
+#hashover table tbody tr td {
+    background-color: #050505 !important;
+}
+.cmtbox textarea, .opt-name, .opt-password, .opt-email, .opt-login {
+    background-color: #151515 !important;
+    border: 1px solid #333 !important;
+    color: #888 !important;
+}
+.post_cmt {
+    background-color: #101010 !important;
+    border-color: #333 !important;
+    color: #888 !important;
+}
+.cmtbox textarea:hover, .opt-name:hover, .opt-password:hover, .opt-email:hover, .opt-login:hover {
+    background-color: #151515 !important;
+    border: 1px solid #333 !important;
+    color: #888 !important;
+    filter: invert(1);
+}
+.post_cmt:hover {
+    background-color: #101010 !important;
+    border-color: #333 !important;
+    color: #888 !important;
+    filter: invert(1);
 }
 }
