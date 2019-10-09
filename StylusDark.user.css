@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           StylusDark
-@version        1.0.0
+@version        1.0.1
 @description    Night mode for Stylus
 @author         Psykek/PrototypeChicken
 @namespace      github.com/Psykek66/UserCSS
@@ -8,7 +8,17 @@
 @updateURL      https://raw.githubusercontent.com/Psykek66/UserCSS/master/StylusDark.user.css
 ==/UserStyle== */
 
-@-moz-document url-prefix("moz-extension://5c52c1e8-5b45-47ab-8be3-858fa0a1dd7d/install-usercss"), url-prefix("moz-extension://5c52c1e8-5b45-47ab-8be3-858fa0a1dd7d/edit") {
+/* ========== How to make this work specifically for the style page rather than every extension page ========== 
+
+1. Click "raw" on this page to open up the stylus installer
+2. Copy the url at the top
+3. Shorten the URL to where it says "moz-extension://some-combo-of-characters-here" or "chrome-extension://some-combo-of-characters-here"
+4. Replace the url-prefixes here with those URLs
+5. Save 
+
+*You may have to do this every time the stylus extension updates*/
+
+@-moz-document url-prefix("moz-extension://"), url-prefix("chrome-extension://") {
 
 a {
     color: #999;        
