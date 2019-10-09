@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           StylusDark
-@version        1.0.5
+@version        1.1.0
 @description    Night mode for Stylus
 @author         Psykek/PrototypeChicken
 @namespace      github.com/Psykek66/UserCSS
@@ -108,13 +108,12 @@ select {
 	transition: color .5s;
 }
 input, button {
-    background-color: #151515 !important;
+    background-image: linear-gradient(to top, #252525 , #303030) !important;
     border-color: #303030 !important;
-    background-image: none;
     color: #888;
 }
 button:hover {
-    background-color: #000 !important;    
+     background-image: linear-gradient(to top, #000 , #151515) !important;    
 }    
 .cm-atom {
     color: #00abff !important;
@@ -148,6 +147,18 @@ input:not([type]) {
     color: #888;
 }
 #message-box-buttons {
-    background-color: #444;        
+    background-color: #202020;        
+}
+body {
+    background-color: #101010 !important;
+    color: #888 !important;
+    border-color: #333;
+}
+a:hover {
+    color: #ededed !important;
+}
+#installed {
+    border-color: #333;
+     background-image: linear-gradient(to top, #050505 , #101010);
 }
 }
