@@ -148,6 +148,6 @@ input:not([type]) {
     color: #888;
 }
 #message-box-buttons {
-    background-color: #202020;        
+    background-color: #444;        
 }
 }
