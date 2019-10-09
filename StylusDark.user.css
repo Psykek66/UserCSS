@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           StylusDark
-@version        1.0.1
+@version        1.0.3
 @description    Night mode for Stylus
 @author         Psykek/PrototypeChicken
 @namespace      github.com/Psykek66/UserCSS
@@ -128,5 +128,15 @@ button:hover {
 }
 .cm-callee {
     color: #fffc43;
+}
+input:not([type]) {
+	background: #fff;
+	color: #999;
+	height: 22px;
+	min-height: 22px !important;
+	line-height: 22px;
+	padding: 0 3px;
+	font: inherit;
+	border: 1px solid hsl(0, 0%, 66%);
 }
 }
