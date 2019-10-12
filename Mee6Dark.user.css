@@ -8,6 +8,7 @@
 @updateURL      https://raw.githubusercontent.com/Psykek66/UserCSS/master/Mee6Dark.user.css
 ==/UserStyle== */
 
+
 @-moz-document url-prefix("https://mee6.xyz/dashboard/") {
 .GuildSelectionGuildIcon {
     border-color: #555 !important;
@@ -170,7 +171,7 @@ h3 {
     background-color: #cac9c9 !important;
 }
 .playerGuildSettings {
-    border-color: #444; !important;
+    border-color: #444 !important;
 }
 .playerProfile .Toggle.checked {
     background-color: #303030!important;
