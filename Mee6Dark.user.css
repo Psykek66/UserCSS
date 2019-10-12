@@ -490,4 +490,51 @@ form h2 {
 .Loader {
     background-color: #050505;
 }
+.menuList.open {
+    background-color: #080808;
+}
+.open .menuListItem:hover {
+    background-color: #000 !important;
+    color: #999;
+}
+.rankCardModalNavigation .rankCardModalNavigationLink {
+    color: #999 !important;
+}
+.rankCardModalNavigation .rankCardModalNavigationLink.active {
+    color: #c4c4c4 !important;
+}
+.Toggle.small {
+    background-color: #404040 !important;
+}
+.Toggle.checked {
+    background-color: #000 !important;
+}
+.Toggle .ToggleCircle {
+    box-shadow: none !important;
+    background-color: #080808 !important;
+}
+.checked .ToggleCircle {
+    background-color: #333 !important;
+}
+.rankCardModalNavigation {
+    border-bottom-color: #666;
+}
+.cb-body__wrap {
+    padding: 12px 36px;
+    transition: all .5s ease;
+    opacity: 1;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    background-color: #151515;
+}
+.cb-header {
+    background: #101010;
+    border-radius: 4px 4px 0 0;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.1);
+    text-align: center;
+}
 }
