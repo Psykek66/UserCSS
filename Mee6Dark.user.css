@@ -9,7 +9,7 @@
 ==/UserStyle== */
 
 
-@-moz-document url-prefix("https://mee6.xyz/dashboard/") {
+@-moz-document url-prefix("https://mee6.xyz/") {
 .GuildSelectionGuildIcon {
     border-color: #555 !important;
 }
