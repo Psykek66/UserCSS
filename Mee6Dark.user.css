@@ -1,0 +1,493 @@
+/* ==UserStyle==
+@name           Mee6Dark
+@version        1.0.0
+@description    Night mode for the Mee6 (discord bot) dashboard
+@author         Psykek/PrototypeChicken
+@namespace      github.com/Psykek66/UserCSS
+@homepageURL    https://github.com/Psykek66/UserCSS
+@updateURL      https://raw.githubusercontent.com/Psykek66/UserCSS/master/Mee6Dark.user.css
+==/UserStyle== */
+
+
+@-moz-document url-prefix("https://mee6.xyz/dashboard/") {
+.GuildSelectionGuildIcon {
+    border-color: #555 !important;
+}
+#GuildSelection {
+    background-color: #090909;
+}
+.desktopHeader {
+    background-color: #050505;
+}
+.GuildSelectionText {
+    color: #888 !important;
+}
+.subHeader {
+    background-color: #101010;
+}
+#app-mount > div > div {
+    background-color: #151515;
+}
+.unlocked {
+    background-color: #070707;
+}
+.unlocked .PluginName {
+    color: #b4b4b4;
+}
+.unlocked .PluginDescription {
+    color: #888;
+}
+.selected {
+    border-color: #888 !important;
+    color: #999;
+}
+.subHeaderMenuListItem {
+    color: #999;
+}
+.subHeaderGuildInfo {
+    color: #999;
+}
+.subHeaderMenuListItem:hover {
+    border-color: #555 !important;
+}
+.subHeaderMenuListItemPremium:hover {
+    border-color: gold !important; 
+}
+.desktopHeaderInner .menuLauncher {
+    color: #999;
+}
+.menuLauncherSwitcher {
+    filter: invert(50%);   
+}
+.unlocked:hover {
+    border: 3px solid #000;
+    background-color: #000;
+    box-shadow: 7px 7px #101010;
+}
+.inactive.unlocked:hover {
+    border: none;
+    background-color: #101010;
+    box-shadow: none;
+}
+.inactive.unlocked .PluginDescription, .inactive.unlocked .PluginName {
+    color: #666;
+}
+.premium {
+    background-color: #090909;
+}
+.premiumPerksTitle {
+    color: #999 !important;
+}
+.premiumFeature:hover {
+    background-color: #101010 !important;
+}
+.premiumFeatureTitle {
+    color: #999 !important;
+}
+.faqTitle {
+    color: #999 !important;
+}
+.faq-item {
+    background-color: #090909;
+    border-color: #000 !important;
+}
+.premium-experiment-prices .faq ul .faq-item .question h3 {
+    color: #777;
+}
+.faq-item:hover {
+    border: 3px solid #000 !important;
+}
+.question img {
+    filter: invert(60%);
+}
+.override1 span, #middle-plan span, #middle-plan .override1-1 {
+    color: #888;
+}
+.PanelInfoYellow {
+    background-color: #090909;
+    border: 1px solid #000;
+    color: #999;
+}
+.top0 {
+    color: #999;
+}
+.bottom20 h3 {
+    color: #999;
+}
+.disabled .RoleSelectorInner {
+    background-color: #090909;
+}
+.RoleSelectorInner {
+    background-color: #090909;
+    border-color: #000 !important;
+}
+.WelcomeContainer p {
+    color: #999;
+}
+.large {
+    background-color: #000 !important;
+    color: #999;
+}
+.RoleSelectorListContainer {
+    background-color: #090909;
+}
+html {
+    background-color: #151515;
+}
+.RoleSelectorListItem:hover {
+    background-color: #000 !important;
+}
+h3 {
+    color: #999;
+}
+.leaderboardPlayersList {
+    background-color: #151515;
+}
+.playerProfile {
+    background-color: #050505;
+    color: #999 !important;
+}
+.leaderboardPlayerUsername {
+    color: #999;
+}
+.leaderboardPlayerIcon img {
+    border-color: #050505 !important;
+}
+.leaderboardPlayerStatBlock .leaderboardPlayerStatValue {
+    color: #999;
+}
+.leaderboardPlayerStatBlock .leaderboardPlayerStatName {
+    color: #b4b4b4 !important;
+}
+.leaderboardPlayerStat {
+    background-color: #000 !important;
+    background-image: none;
+    filter: grayscale(1);
+}
+.leaderboardPlayerStats {
+    filter: invert(100%);
+}
+.p0 {
+    background-color: #cac9c9 !important;
+}
+.playerGuildSettings {
+    border-color: #444; !important;
+}
+.playerProfile .Toggle.checked {
+    background-color: #303030!important;
+}
+.ToggleCircle {
+    background-color: #050505 !important;
+}
+.playerProfile .Toggle {
+    background-color: #606060 !important;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.playerGuildSettingsUseDefaultRankCard > div {
+    color: #999;
+}
+.normal span {
+    color: #999;
+}
+.normal svg {
+    fill: #999;
+}
+.leaderboardSidebarBlock {
+    background-color: #050505;
+    color: #999;
+}
+.leaderboardSidebarBlock h1 {
+    color: #b4b4b4;
+}
+.leaderboardPlaceholderText {
+    color: #999;
+}
+.leaderboardGuildName {
+    color: #999;
+}
+.default {
+    color: #000;
+}
+.button {
+    color: #999;
+}
+.SectionText h1 {
+    color: #b4b4b4;
+}
+.MkPVp {
+    background-color: #151515;
+}
+.small {
+    background-color: #050505 !important;
+    color: #999 !important;
+}
+.pluginTitle {
+    color: #999 !important;
+}
+.flexChildLeft {
+    color: #999;
+}
+.normal {
+    background-color: #050505 !important;
+}
+.ModalHeader {
+    background-color: #101010;
+    color: #999 !important;
+}
+.ModalHeaderCross {
+    background-color: #101010 !important;
+    color: #999;
+}
+.ModalHeader h2 {
+    color: #999;
+}
+.ModalContent {
+    background-color: #101010;
+}
+.flex1 .textInput {
+    background-color: #050505;
+    color: #999 !important;
+}
+.ModalFooter {
+    background-color: #101010;        
+}
+.textArea {
+    background-color: #050505;
+    color: #999;
+}
+.ghost {
+    border: none !important;
+    color: #999 !important;
+}
+.ghost {
+    background-color: #000 !important;
+    border: 1px solid #000 !important;
+}
+.textAreaMentions {
+    background-color: #202020 !important;
+}
+.selected {
+    background-color: #101010 !important;
+}
+.textAreaMention:hover {
+    background-color: #151515 !important;
+}
+.textAreaMentionValue {
+    color: #999 !important;
+}
+.CommandView {
+    background-color: #101010;
+    color: #999 !important;
+}
+.CommandName {
+    color: #b4b4b4 !important;
+}
+.CommandViewDelete {
+    background-color: #050505 !important;
+}
+.cbHljT {
+    width: 60px;
+    height: 30px;
+    background-color: #000;
+}
+.jzZMmF {
+    background-color: #222;
+}
+.kBkjMY {
+    background-color: #000;
+}
+.kceyEX {
+    background-color: #444;
+}
+.flexAlignCenter .Select {
+    background-color: #050505;
+    border-color: #000;
+    color: #999;
+}
+.open .SelectOption {
+    background-color: #101010;
+    color: #999;
+}
+.open .SelectOption:hover {
+    background-color: #080808;
+    color: #999;
+}
+.open .SelectOptions {
+    border-color: #000;
+}
+.mobileBottom20 .Select {
+    background-color: #050505;
+    color: #999;
+}
+.CheckPlus {
+    background-color: #050505;
+    color: #999;
+}
+.textInput {
+    background-color: #050505;
+    color: #999;
+}
+.ConfirmationText {
+    color: #999 !important;
+}
+.Confirmation .ConfirmationButtons button {
+    background-color: #101010 !important;
+}
+.kONhJo {
+    background-color: #050505;
+    border-color: #000;
+    color: #999;
+}
+.top20.bottom40 span {
+    color: #999;
+}
+.top40.bottom40 {
+    color: #999;
+}
+.kfJEkx {
+    background-color: #050505;
+    color: #999;
+}
+.fxwLPT {
+    background-color: #101010;
+    border-color: #000;
+}
+.hlPVGl {
+    color: #999;
+}
+.fenOmF:hover {
+    background-color: #080808 !important;
+    color: #999;
+}
+.kodhDx {
+    background-color: #050505;
+    color: #999;
+}
+.hhSWvo {
+    background-color: #080808;
+    color: #c4c4c4;
+}
+form h2 {
+    color: #999;
+}
+.fTDTpN {
+    background-color: #000;
+}
+.TVpc {
+    background-color: #050505;
+    color: #999;
+    border-color: #000;
+}
+.gSrsDP {
+    background-color: #101010;
+    border-color: #202020;
+}
+.Select {
+    background-color: #050505;
+    border-color: #000;
+    color: #999;
+}
+.fHkyHb {
+    background-color: #050505;
+    color: #c4c4c4;
+}
+.eebalS {
+    border-color: #202020;
+    background-color: #101010;
+}
+#rect {
+    fill: #000 !important;
+}
+.ChannelSelector {
+    background-color: #050505;
+}
+.ChannelSelectorListContainer {
+    background-color: #101010;
+    color: #999;
+}
+.ChannelSelectorListItem:hover {
+    background-color: #050505 !important;
+}
+.PluginContent > h2 {
+    color: #999;
+}
+.fVSEcu {
+    background-color: #404040;
+}
+.liFqFx {
+    background-color: #000;
+}
+.ecPLyD .iszbhd {
+    color: #999;
+}
+.TimerAddChannel {
+    background-color: #050505;
+    color: #999;
+}
+.ChannelCross img {
+    filter: invert(1);
+}
+.Timer {
+    background-color: #101010;
+    color: #999;
+}
+.TimerChannel {
+    color: #999 !important;
+}
+.TimerCross {
+    background-color: #000 !important;
+}
+.Streamer {
+    background-color: #101010;
+    color: #999;
+}
+.StreamerName {
+    color: #999 !important;
+}
+.StreamerCross {
+    background-color: #000 !important;
+}
+.Subscription {
+    background-color: #101010;
+}
+.SubscriptionName {
+    color: #999 !important;
+}
+.Subscription:hover {
+    background-color: #101010;
+}
+.SubscriptionCross {
+    background-color: #000 !important;
+}
+.Subreddit {
+    background-color: #101010;
+    color: #999 !important;
+}
+.SubredditName {
+    color: #999 !important;
+}
+.Subreddit:hover {
+    background-color: #101010;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.SubredditNameInput {
+    background-color: #101010 !important;
+    border-color: #000;
+}
+.SubredditCross {
+    background-color: #000 !important;
+}
+.top40 .flexRow {
+    color: #999;
+}
+.SubredditNameInput:hover {
+    background-color: #050505 !important;
+    border-color: #000;
+}
+.Loader {
+    background-color: #050505;
+}
+}
