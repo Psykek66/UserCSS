@@ -1,0 +1,206 @@
+/* ==UserStyle==
+@name           SkribblDark
+@version        1.0.0
+@description    Night mode for skribbl.io
+@author         Psykek/PrototypeChicken
+@namespace      github.com/Psykek66/UserCSS
+@homepageURL    https://github.com/Psykek66/UserCSS
+@updateURL      https://raw.githubusercontent.com/Psykek66/UserCSS/master/SkribblDark.user.css
+==/UserStyle== */
+
+
+/* If you don't want the background image, then replace "background-image: url("https://i.vgy.me/pu3Ey6.jpg");"
+with "background-color: #101010;" for both .container-fluid and html. */
+
+@-moz-document url-prefix("https://skribbl.io/") {
+.container-fluid {
+    background-image: url("https://i.vgy.me/pu3Ey6.jpg");
+}
+html {
+    background-image: url("https://i.vgy.me/pu3Ey6.jpg");
+}
+.col-xs-6 > .row .loginPanelTitle {
+    background-color: #050505;
+    border-color: #101010;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.col-xs-6 > .row .loginPanelContent {
+    background-color: #050505;
+}
+#inputName {
+    background-color: #101010;
+    border-color: #000;
+}
+#loginAvatarCustomizeContainer {
+    background-color: #050505;
+    border-color: #050505;
+}
+.avatarArrow {
+    filter: invert(15%);
+}
+.btn-lg {
+    background-color: #101010;
+    border-color: #050505;
+    color: #999;
+}
+.btn-info {
+    background-color: #101010;
+    border-color: #050505;
+    color: #999;
+}
+#loginLanguage {
+    filter: invert(93.5%);
+    border-color: #fefefe;
+    box-shadow: none;
+}
+.col-xs-6 div .row .loginPanelTitle {
+    background-color: #050505;
+    border-color: #101010;
+}
+.col-xs-6 div .row .loginPanelContent {
+    background-color: #050505;
+}
+.updateInfo {
+    background-color: #050505;
+    border-color: #050505;
+    color: #999;
+}
+#tabUpdate a {
+    color: #999;
+}
+.collapsed {
+    color: #999 !important;
+}
+#tabAbout a {
+    color: #999;
+}
+small {
+    background-color: #050505;
+    padding: 5px;
+}
+.btn-info:hover, .btn-lg:hover {
+    background-color: #202020;
+    border: none;
+}
+#containerChat {
+    background-color: #050505;
+}
+#boxMessages {
+    background-color: #050505;
+}
+#boxMessages p {
+    background-color: #050505 !important;
+    color: #999 !important;
+}
+.containerGame b {
+    color: #ff2e2e;
+}
+.containerGame .form-control {
+    background-color: #101010;
+    border-color: #050505;
+}
+#formChat {
+    background-color: #050505;
+}
+.gameHeader {
+    background-color: #050505 !important;
+}
+.player {
+    background-color: #050505 !important;
+    color: #999 !important;
+}
+.info .name {
+    color: #999;    
+}
+.score {
+    color: #999;    
+}
+.rank {
+    color: #999 !important;    
+}
+#player59 .info .name {
+    color: #ff2e2e !important;
+}
+.btn-warning.btn-block {
+    background-color: #050505;
+    border-color: #050505;
+    color: #c4c4c4;
+}
+#round {
+    color: #999;
+}
+#overlay .content {
+    background-color: #050505;
+    color: #999;
+}
+.word {
+    background-color: #101010;
+}
+#overlay .text {
+    color: #999 !important;
+}
+#overlay .content .wordContainer .word {
+    background-color: #101010;
+    color: #999 !important;
+}
+.panel-collapse.in {
+    color: #666;
+}
+#tabHow a {
+    color: #999;
+}
+#containerGamePlayers .player .info .name {
+    color: #ff2e2e !important;
+}
+.lobbyName {
+    background-color: #050505 !important;
+    color: #999 !important;
+    border-color: #050505 !important;
+}
+.lobbyContent {
+    background-color: #050505 !important;
+    border-color: #050505 !important;
+    color: #999 !important;
+}
+#lobbySetLanguage, #lobbySetDrawTime, #lobbySetRounds {
+    filter: invert(93.5%);
+}
+#lobbySetCustomWords {
+    background-color: #101010;
+    border-color: #050505;
+}
+#lobbyCustomWordsExclusive {
+    filter: invert(90%);
+}
+.button.btn-success {
+    background-color: #101010;
+    border-color: #050505;
+    color: #999;
+}
+.button.btn-success:hover {
+    background-color: #202020;
+    border-color: #050505;
+    color: #999;
+}
+.invite-container .title {
+    color: #999 !important;
+}
+#invite {
+    background-color: #fff;
+}
+.invite-input {
+    background-color: #fff !important;
+    color: #999 !important;
+    filter: invert(1);
+    border-color: #fff !important;
+}
+.button.btn-warning {
+    background-color: #050505;
+    border-color: #050505;
+    color: #999;
+}
+#overlay .content .wordContainer .word:hover {
+    background-color: #202020;
+}
+}
