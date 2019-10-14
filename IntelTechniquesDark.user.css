@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           IntelTechniquesDark
-@version        1.0.0
+@version        1.0.2
 @description    Night mode for inteltechniques.com
 @author         Psykek/PrototypeChicken
 @namespace      github.com/Psykek66/UserCSS
@@ -8,6 +8,13 @@
 @updateURL      https://raw.githubusercontent.com/Psykek66/UserCSS/master/IntelTechniquesDark.user.css
 ==/UserStyle== */
 
+/* Known issues: 
+
+- White background in "Member Forum and Tools"    
+    >Can't fix (unless inverted)
+- White images on page 
+    >Can't fix (unless set to "display: none;" or "filter: invert(100%);")
+*/
 
 @-moz-document url-prefix("https://inteltechniques.com/") {
 body {
@@ -179,7 +186,7 @@ td {
     color: #999 !important;
 }
 .content-1col-nobox img {
-    filter: invert(50%) !important;
+    filter: invert(0%) !important;
 }
 .content-1col-nobox p img {
     filter: none !important;
