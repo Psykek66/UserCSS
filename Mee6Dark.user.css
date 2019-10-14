@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           Mee6Dark
-@version        1.0.1
+@version        1.0.2
 @description    Night mode for the Mee6 (discord bot) dashboard
 @author         Psykek/PrototypeChicken
 @namespace      github.com/Psykek66/UserCSS
@@ -171,7 +171,7 @@ h3 {
     background-color: #cac9c9 !important;
 }
 .playerGuildSettings {
-    border-color: #444 !important;
+    border-color: #444; !important;
 }
 .playerProfile .Toggle.checked {
     background-color: #303030!important;
@@ -536,5 +536,23 @@ form h2 {
     border-radius: 4px 4px 0 0;
     box-shadow: 0 1px 2px 0 rgba(0,0,0,.1);
     text-align: center;
+}
+.dRGFHy {
+    background-color: #202020 !important;
+}
+.hfJmBt {
+    background-color: #101010 !important;
+}
+.xfdwD:hover {
+    background-color: #151515 !important;
+}
+.xfdwD .gVDrAc {
+    color: #999 !important;
+}
+.xfdwD {
+    background-color: #181818;
+}
+.hfJmBt .gVDrAc {
+    color: #999;
 }
 }
