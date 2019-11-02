@@ -1,0 +1,369 @@
+/* ==UserStyle==
+@name           Yale Dark
+@version        1.0.0
+@description    Night mode for https://www.art.yale.edu/
+@author         Psykek/PrototypeChicken
+@namespace      github.com/Psykek66/UserCSS
+@homepageURL    https://github.com/Psykek66/UserCSS
+@updateURL      https://raw.githubusercontent.com/Psykek66/UserCSS/master/TerrorFix/YaleDark.user.css
+==/UserStyle== */
+
+@-moz-document url-prefix("https://www.art.yale.edu/") {
+    #main, .backgrounds__pattern {
+    background-image: url("https://i.imgur.com/W5GemfN.jpg") !important;
+}
+.backgrounds__stripe-container, .economy-interface, .devise-wrapper, .magic-module-chooser-open {
+    background-image: url("https://i.imgur.com/W5GemfN.jpg") !important;
+}
+.page-header {
+    text-align: left !important;
+}
+.page-header__inner {
+    margin-left: -38%;
+    position: absolute;
+}
+.page-header__inner span {
+    color: #999;
+    background-image: none;
+}
+.page-title--prominence-1 {
+    text-align: center;
+    position: relative;
+    width: 900px;
+    margin-left: -0%;
+    background-color: #444;
+    border: 1px solid #666;
+}
+#magic_modules {
+    margin-top: 61px;
+}
+.sidebar {
+    margin-top: 7%;
+}
+.page-title--prominence-1 span {
+    background-image: none !important;
+}
+#mmi-22266, .announcement-module.colspan-2, .announcement-module.colspan-4 {
+    background-image: none;
+    background-color: #303030;
+    color: #888;
+    text-decoration: none !important;
+    border: 2px solid #555;
+    font-weight: normal !important;
+}
+.colspan-4 .announcement-module__inner .editor-details__thumbnail {
+    background-color: #555;
+    color: #000;
+    font-weight: bold;
+}
+.page-title--prominence-2 {
+    display: none;
+}
+.colspan-2 .announcement-module__inner a {
+    color: #888;
+}
+.editor-details__content, .colspan-4 .announcement-module__inner .editor-details__content, #mmi-22266 .editor-details__thumbnail, .colspan-2 .announcement-module__inner .editor-details__thumbnail {
+    background-color: #555;
+    color: #000;
+    font-weight: bold;
+}
+#mmi-22266 a {
+    color: #888;
+}
+.sidebar .main-nav {
+    background-color: #303030;
+    border: 1px solid #555;
+}
+.sidebar .sidebar_link_main {
+    color: #888 !important;
+}
+.sidebar .sidebar_link_main:hover {
+    color: #c4c4c4 !important;
+}
+.sidebar .pause-animations {
+    background-color: #303030;
+    border: 1px solid #555;
+}
+.sidebar .pause-animations__label--for-when-playing {
+    color: #888;
+}
+.sidebar rect {
+    fill: #999 !important;
+}
+.sidebar .pause-animations__label--for-when-paused {
+    color: #888;
+}
+.sidebar polygon {
+    fill: #999 !important;
+}
+.sidebar .wiki-disclaimer__inner {
+    background-color: #303030;
+    color: #888;
+    font-size: 11px;
+    border: 1px solid #555;
+}
+.sidebar .economy-footer__inner {
+    background-color: #303030;
+    border: 1px solid #555;
+    color: #888;
+}
+#mmi-22266 a:hover, .colspan-2 .announcement-module__inner a:hover {
+    color: #c4c4c4;
+}
+.sidebar .economy-footer__button {
+    background-color: #101010;
+    color: #888;
+}
+.sidebar .economy-footer__button:hover {
+    background-color: #000;
+    color: #c4c4c4;
+}
+#mmi-25229 .single-image-module__caption, #mmi-25658 .single-image-module__caption {
+    background-color: #666;
+    width: 100%;
+    text-align: center;
+    border-left: 1px solid #777;
+    border-right: 1px solid #777;
+    border-bottom: 1px solid #777;
+}
+#mmi-25649 .pauseable-image__source--animated {
+    filter: invert(100%);
+}
+#mmi-25229 .pauseable-image__source--animated {
+    filter: invert(100%);
+}
+#mmi-24674, #mmi-24739 {
+    background-color: #303030;
+    color: #888;
+    border: 2px solid #555;
+}
+.editor-details__thumbnail, #mmi-24741 .editor-details__thumbnail, #mmi-24674 .editor-details__thumbnail, #mmi-24739 .editor-details__thumbnail {
+    background-color: #555;
+    font-weight: bold;
+}
+#mmi-24674 a {
+    color: #999;
+}
+#mmi-24674 a:hover {
+    color: #c4c4c4;
+}
+#mmi-24734, #mmi-24741 {
+    background-image: none;
+    background-color: #303030;
+    border: 2px solid #555;
+    color: #888;
+}
+#mmi-24734 p a,#mmi-24741 p a {
+    color: #999;
+}
+#mmi-24734 p a:hover, #mmi-24741 p a:hover {
+    color: #c4c4c4;
+}
+.announcement-module.colspan-3 {
+    background-image: none;
+    background-color: #303030;
+    border: 2px solid #555;
+}
+.colspan-3 .announcement-module__inner a {
+    color: #999;
+}
+.colspan-3 .announcement-module__inner a:hover {
+    color: #c4c4c4;
+}
+#mmi-24675 {
+    background-image: none;
+    background-color: #303030;
+    border: 2px solid #555;
+    color: #888;
+}
+#mmi-24675 h2 a {
+    color: #999;
+}
+#mmi-24675 h2 a:hover {
+    color: #c4c4c4;
+}
+#mmi-24559, #mmi-24361 {
+    background-image: none;
+    background-color: #303030;
+    border: 2px solid #555;
+    color: #888;
+}
+.colspan-3 h3 a {
+    color: #999;
+}
+.colspan-3 h3 a:hover {
+    color: #c4c4c4;
+}
+.yale-footer__inner a {
+    color: #999 !important;
+    background-image: none;
+}
+.yale-footer__inner a:hover {
+    color: #c4c4c4 !important;
+    background-image: none;
+}
+.yale-footer__inner span {
+    color: #999;
+    background-image: none;
+}
+.edit-form {
+    background-color: #303030 !important;
+    background-image: none !important;
+}
+.controller--sessions.action--new .edit-form {
+	background-color: #202020 !important;
+}
+.login-headline {
+    color: #999;
+}
+a.form-fork__button {
+    background-color: #404040 !important;
+    color: #999 !important;
+}
+.economy-login {
+    background-color: #404040 !important;
+    color: #999 !important;
+}
+.economy-login:hover, a.form-fork__button:hover {
+    background-color: #303030 !important;
+}
+.string, #user_password {
+    background-color: #404040;
+    color: #999;
+    border: 1px solid #555 !important;
+}
+.email.control-label {
+    color: #999;
+}
+.password.control-label {
+    color: #999;
+}
+.checkbox {
+    color: #999;
+}
+.checkbox .optional {
+    filter: invert(80%);
+    box-shadow: none !important;
+}
+.active a {
+    color: #999 !important;
+}
+.save {
+    background-color: #404040 !important;
+    color: #999 !important;
+}
+.save:hover {
+    background-color: #303030 !important;
+}
+.scrolling-list-module {
+    background-image: none !important;
+    background-color: #303030;
+    color: #888;
+    border: 2px solid #555;
+}
+.scrolling-list-module__list-item a {
+    color: #999;
+    font-weight: normal;
+}
+.scrolling-list-module__list-item a:hover {
+    color: #c4c4c4;
+    font-weight: normal;
+}
+.scrolling-text-module.colspan-4 {
+    background-color: #303030;
+    color: #888;
+    border: 2px solid #555;
+}
+#mmi-15035, #mmi-25590, #mmi-25310, #mmi-25308, #mmi-25306, #mmi-25311, #mmi-25309, #mmi-25307, #mmi-25092, #mmi-25091 {
+    background-image: none !important;
+    background-color: #303030; 
+    border: 2px solid #555;
+    color: #888;
+}
+a, p a, h1 a , h2 a, h3 a, h4 a, h5 a, h6 a {
+    color: #999;
+}
+a:hover, p a:hover, h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
+    color: #c4c4c4;
+}
+.pauseable-image__source--animated {
+    border: 2px solid #c4c4c4;
+}
+.single-image-module__caption {
+    background-color: #666;
+    width: 100%;
+    text-align: center;
+    border-left: 1px solid #777;
+    border-right: 1px solid #777;
+    border-bottom: 1px solid #777;
+}
+.divider-module__horizontal-rule {
+    display: none;
+}
+.is-draggable {
+    filter: grayscale(1);
+}
+.see-also-module__inner {
+    background-color: #303030;
+    margin-left: 0px;
+}
+.page-title--prominence-3 span {
+    background-image: none !important;
+}
+.page-title--prominence-3 {
+    background-color: #444;
+    padding: 1px;
+    border: 1px solid #666;
+}
+.colspan-3 {
+    background-color: #303030;
+    border: 2px solid #555;
+    color: #888;
+}
+.colspan-2 {
+    background-image: none !important;
+    background-color: #303030;
+    border: 2px solid #555;
+}
+.colspan-1 {
+    background-color: #303030 !important;
+    color: #888;
+    border: 2px solid #555;
+    width: 340px;
+}
+.title-module--prominence-1 {
+    border: 1px solid;
+}
+#mmi-23504 a {
+    color: #999;
+}
+#mmi-23504 a:hover {
+    color: #c4c4c4;
+}
+.jump-links-module__title span, .jump-links-module__links a {
+	padding: 1px;
+	box-shadow: none;
+	background-color: #444;
+    border: 1px solid #666;
+}
+.accordion-module__summary {
+    background-color: #303030;
+    color: #888;
+    border: 2px solid #555;
+}
+.accordion-module__content {
+    background-color: #202020;
+    padding-top: 5px;
+    color: #888;
+    border-left: 2px solid #555;
+    border-right: 2px solid #555;
+    border-bottom: 2px solid #555;
+}
+.single-image-module.colspan-2 {
+    display: none;
+}
+.page-title--prominence-4 {
+    color: #888;
+}
+   
+}
