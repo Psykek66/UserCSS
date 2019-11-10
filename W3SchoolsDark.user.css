@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           W3SchoolsDark
-@version        1.1.0
+@version        1.1.1
 @description    Night mode for W3Schools.com
 @author         Psykek/PrototypeChicken
 @namespace      github.com/Psykek66/UserCSS
@@ -1107,5 +1107,7 @@ p .jskeywordcolor {
 .browserref th {
     color: #999 !important;
 }
-
+.cm-s-default .cm-atom, .cm-s-default .cm-attribute {
+    color: #00ffff !important;
+}
 }
