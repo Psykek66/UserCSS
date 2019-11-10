@@ -1110,4 +1110,7 @@ p .jskeywordcolor {
 .cm-s-default .cm-atom, .cm-s-default .cm-attribute {
     color: #00ffff !important;
 }
+.cm-s-default .cm-builtin {
+    color: #00ff00 !important;
+}
 }
