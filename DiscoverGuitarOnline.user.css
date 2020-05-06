@@ -1,0 +1,71 @@
+/* ==UserStyle==
+@name           DGO fix
+@version        1.0.0
+@description    Night mode for http://discoverguitaronline.com/
+@author         Psykek/PrototypeChicken
+@namespace      github.com/Psykek66/UserCSS
+@homepageURL    https://github.com/Psykek66/UserCSS
+@updateURL      https://raw.githubusercontent.com/Psykek66/UserCSS/master/DiscoverGuitarOnline.user.css
+==/UserStyle== */
+@-moz-document domain("discoverguitaronline.com") {
+    body {
+    background-color: #111;
+}
+.top-navigation a {
+    background-color: #004e94;
+    color: #fff;
+}
+.top-navigation a:hover {
+    height: 7px;
+    margin-top: 5px;
+}
+#search {
+    background-color: #004e94;
+}
+.search_text {
+    background-color: #004e94;
+    color: #fff;
+    padding-bottom: 2px !important;
+}
+#search .search_button {
+    border: none;
+    cursor: pointer;
+    text-indent: 9999px;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    width: 2em;
+    height: 19px;
+    background: #FFB16B url("https://img.pngio.com/search-icon-this-icon-is-supposed-to-represent-a-magnifying-glass-its-a-large-search-png-1600_1600.png") no-repeat center center;
+    background-size: 15px 15px;
+    filter: invert(100%);
+    margin-right: -5px;
+    border-radius: 5px;
+}
+#footer .inner {
+    background-color: #004e94 !important;
+}
+#footer .media_item {
+    padding: 2px 5px;
+    border-bottom: 1px solid #fff;
+    color: #fff !important;
+}
+#footer .latest h5 {
+    color: #fff;
+}
+#footer .media_item a {
+    color: #fff !important;
+}
+.even em, .odd em {
+    color: #888;
+}
+.sort_options a {
+    color: #888
+}
+.count {
+    color: #777 !important;
+}
+.sections li.active a.parent .count {
+    color: #fff !important;
+}
+}
