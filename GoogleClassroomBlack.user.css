@@ -1,0 +1,390 @@
+/* ==UserStyle==
+@name           Google Classroom Black Theme
+@version        1.0.0
+@description    Night mode for https://classroom.google.com/
+@author         Psykek/PrototypeChicken
+@namespace      github.com/Psykek66/UserCSS
+@homepageURL    https://github.com/Psykek66/UserCSS
+@updateURL      https://raw.githubusercontent.com/Psykek66/UserCSS/master/GoogleClassroomBlack.user.css
+==/UserStyle== */
+
+@-moz-document domain("classroom.google.com") {
+
+/* There will be a few issues with this theme because, as you can probably see by the css id names, google (unintentionally(?)) makes it difficult to make css themes for their websites. Most, if not all of the existing bugs will probably remain unfixed. */
+    
+/* I've only tried this theme on firefox, chrome, and edge. I know it works pretty well on firefox and chrome, but there are a lot of issues with it on edge. */
+    
+/* Header */
+
+.dxu4Dd > .QRiHXd {
+    background-color: #030303;
+    border-bottom: none;
+}
+
+/* Area behind header */
+
+.nk6WKe {
+    background-color: #030303;
+    border: none;
+}
+
+/* Body on classes page */
+
+.JwPp0e {
+    background-color: #050505;
+}
+
+/* (previously) White line under header */
+
+.dxu4Dd {
+    border-bottom: 1px solid #101010;
+}
+
+/* Class card */
+
+.JwPp0e .rZXyy {
+    background-color: #000;
+    border-color: #151515;
+}
+
+/* Class card mid */
+
+.JwPp0e .TQYOZc {
+    background-color: #000;
+}
+
+/* Class card bottom */
+
+.JwPp0e .SZ0kZe {
+    background-color: #000;
+    border: 1px solid #151515;
+}
+
+/* Bottom left info tooltip */
+
+.qjTEB .K0NPx {
+    background-color: #000;
+    color: #555;
+}    
+
+/* Bottom left info tooltip columns */
+
+
+.qjTEB .oJeWuf {
+    color: #555;
+    border-right: #000;
+}
+.qjTEB .oJeWuf:hover {
+    background-color: #101010;
+}
+
+/* Classes sidebar */
+
+.OX4Vcb {
+    background-color: #000;
+}
+
+/* Classes sidebar preset items */
+
+.OX4Vcb > .cd29Sd:hover {
+    background-color: #101010;
+}
+
+/* Classes sidebar under enrolled */
+
+.vG1fDb .p1KYTc:hover {
+    background-color: #101010;
+}
+.TMOcX:hover {
+    background-color: #101010;
+}
+.OX4Vcb div .cd29Sd:hover {
+    background-color: #101010;
+}
+
+/* Join class header */
+
+.gKkZCe {
+    background-color: #000;
+    border-bottom: 1px solid #101010;
+}
+
+/* Join class body */
+
+.d3Fkdd {
+    background-color: #050505;
+}
+
+/* Join class signed in as... */
+
+.najF6d {
+    background-color: #000;
+    border: 1px solid #101010;
+}
+
+/* ^ switch account button */
+
+.TpQm9d .Fxmcue {
+    color: #555;
+}
+.TpQm9d .Fxmcue:hover {
+    color: #555;
+    background-color: #202020;
+}
+.AeAAkf {
+    background-color: #101010;
+    border-color: #101010;
+}
+.AeAAkf:hover {
+    background-color: #101010;
+    border-color: #101010;
+}
+
+/* Join class class code area */
+
+.NyxV9b {
+    background-color: #000;
+    border-color: #101010;
+}
+
+/* ^ input box */
+
+input.poFWNe.zHQkBf {
+    background-color: #101010;
+    color: #555;
+}
+
+/* ===== class feed ===== */
+
+/* upcoming */
+
+
+.d4Fe0d {
+    background-color: #050505;
+    border: 1px solid #101010;
+}
+.WMQb5e .nforOe {
+    color: #444;
+}
+
+/* stream assignment */
+
+.n4xnA {
+    background-color: #050505;
+    border-color: #101010;
+}
+.Aopndd.TIunU {
+    background-color: #050505;
+    border-color: #101010;
+}
+.s2g3Xd {
+    border: 1px  solid #101010;
+}
+
+/* stream assignment text */
+
+.obylVb {
+    color: #555;
+}
+.obylVb a {
+    color: #777;
+}
+
+/* comment area */
+
+.Q8U8uc .Gh0umc.CMmBPd {
+    color: #555;
+    border-top: 1px solid #101010 !important;
+}
+
+/* comment box */
+
+.iJ6Xwe {
+    border-color: #303030;
+}
+#\:3\.t {
+    color: #555 !important;
+}
+.Q8U8uc .x7VMf {
+    color: #555 !important;
+}
+
+/* View all classwork here */
+
+.Aopndd.asQXV {
+    background-color: #000;
+    border: 1px solid #101010;
+}
+
+/* Header tabs */
+
+.VHRSDf .UISY8d-Ysl7Fe:hover {
+    background-color: #000;
+}
+
+/* Lines between each person on the people tab */
+
+/*students*/
+.njieAf, .PeKgHf, .KnNDJe {
+    border-top: 1px solid #101010 !important;
+}
+/*teachers*/
+.ycbm1d .gQZxn {
+    border-top: 1px solid #101010 !important;
+}
+
+/* (previously) blue headers on people tab */
+
+.Era2ub, .MwhM8b {
+    border-bottom: none !important;
+}
+.Era2ub .XjYjO, .dRIMEd, .jg22B {
+    color: #555 !important;
+}
+
+/* stream preview link */
+
+.cKrCw {
+    background-color: #000;
+    border: 1px solid #202020;
+}
+.Aopndd {
+    background-color: #000;
+    border: 1px solid #202020;
+}
+
+/* Classwork tab assignments */
+
+.jWCzBe:hover {
+    background-color: #080808 !important;
+    border-top: 1px solid #101010;
+}
+.SFCE1b {
+    background-color: #060606;
+}
+.zvbGS {
+    border-color: #101010 !important;
+    background-color: #101010;
+}
+.AZd1I {
+    border-color: #101010 !important;
+}
+.ZoT1D:hover {
+    background-color: #101010;
+    border-bottom: 1px solid #555 !important;
+    border-radius: 0px;
+}
+
+/* Due date */ 
+
+.T3FW5d.YVvGBb {
+   color: #555; 
+}
+
+/* Classwork tab filter tabs */
+
+.zFfAHb {
+    color: #666 !important;
+    border: 1px solid #101010;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    background-color: #000;
+}
+.zFfAHb:hover {
+    color: #666 !important;
+    border: 1px solid #101010;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    background-color: #101010;
+}
+.fXuRkd {
+    background-color: #000 !important;
+}
+
+/* classwork assignment white lines in middle */
+
+.lXuxY .O9YpHb {
+    border-color: #101010;
+}
+.lXuxY .u73Apc {
+    border-bottom: #101010;
+}
+.lXuxY .grsMub {
+    color: #555;
+}
+.ndcsBf .u73Apc {
+    border-color: #000;
+}
+
+/* Classwork content fix bottom white line */ 
+
+.EE538 > .eqqrO {
+    border-top: 1px solid #101010;
+}
+.ysL59 {
+    display: none;
+}
+.kpDQ8.CMmBPd {
+    border-top: 1px solid #101010 !important;
+}
+.eqqrO {
+    border-top: none !important;
+}
+/* icons */
+
+.NMm5M {
+    color: #555 !important;
+}
+
+/* add or create */
+
+.cd29Sd {
+    border: 1px solid #101010;
+    border-bottom: 2px solid #101010;
+}
+.DShyMc-MTI5OTUwOTUwOTUw .DqwBN:not(.RDPZE), .DShyMc-MTI5OTUwOTUwOTUw .l3F1ye:not(.RDPZE), .DShyMc-MTI5OTUwOTUwOTUw .BEAGS:not(.RDPZE), .DShyMc-MTI5OTUwOTUwOTUw .AeAAkf:not(.RDPZE) {
+    color: #555;
+}
+
+/* Mark as done */
+
+.Y5sE8d {
+    color: #000 !important;
+}
+
+/* email link */
+
+.VSWCL a {
+    color: #888;
+}
+
+/* upcoming text */
+
+.oBSRLe {
+    color: #555;
+}
+.WMQb5e > div {
+    color: #555 !important;
+}
+
+/* links */
+
+a {
+    color: #888 !important;
+}
+
+/* share something with your class */
+
+.K6Ovqd {
+    color: #555;
+}
+
+/* other */
+
+.ksaOtd {
+    color: #555;
+}
+.nmFHZb {
+    color: #555 !important;
+}
+}
