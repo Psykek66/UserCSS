@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           Mee6Dark
-@version        1.0.2
+@version        1.1.0
 @description    Night mode for the Mee6 (discord bot) dashboard
 @author         Psykek/PrototypeChicken
 @namespace      github.com/Psykek66/UserCSS
@@ -554,5 +554,158 @@ form h2 {
 }
 .hfJmBt .gVDrAc {
     color: #999;
+}
+#app-mount {
+	background-color: #151515;
+}
+.hzjoSM {
+	color: #ddd;
+}
+.jVikpb {
+	background-color: #050505;
+}
+.eYgdIU {
+	background-color: #050505;
+	color: #eee;
+}
+.eYgdIU .dxeudU {
+	color: #eee;
+}
+.lhUgfo {
+	background-color: #050505;
+}
+.dDNMFl {
+    background-color: #080808;
+}
+.dDNMFl:hover {
+    background-color: #000;
+}
+.fQeGAE {
+	background-color: #080808;
+}
+.hPOFYV {
+    background-color: #050505;
+}
+.Section {
+    background-color: #101010;
+}
+.ilXNtH {
+    background-color: #050505;
+    color: #999;
+}
+.AQVAm {
+    background-color: #080808;
+}
+.hxjnxt {
+    background-color: #080808;
+}
+.hxjnxt:hover {
+    background-color: #000;
+}
+.kthDAG {
+    background-color: #080808;
+}
+.kthDAG > .eiSRs:hover {
+    background-color: #000;
+}
+.iHVNri:hover {
+    background-color: #000;
+}
+.kthDAG .gPmcDW .eiSRs:hover {
+    background-color: #000;
+}
+.gXQQDW {
+    background-color: #050505;
+}
+.fDSFXh {
+    background-color: #050505;
+}
+/* == SWITCHES == */
+
+/*=before back=*/
+.eIuYad .dCsSYS, form > .eQOrWd .dCsSYS, .bGGfSR {
+    background-color: #555;
+}
+/*=button=*/
+.eIuYad .kQMUYa,.cpGumI, form > .eQOrWd .kQMUYa, .iucuXV, .iXQwBd {
+    background-color: #333;
+}
+/*=After back=*/
+.cuPWgQ, .gsFghA, .klcfHZ {
+    background-color: #000;
+}
+
+/* == END SWITCHES == */
+
+.eJRGgv {
+    background-color: #101010;
+}
+.loEhGQ {
+    background-color: #101010;
+}
+.bhiRrt {
+    background-color: #050505;
+    color: #999;
+}
+.bhiRrt:hover {
+    background-color: #000;
+    color: #ddd;
+}
+.kseTqq span {
+    color: #999;
+}
+.ildTWj {
+    background-color: #101010;
+    border-left: 1px solid #222;
+    border-right: 1px solid #222;
+}
+.iePbiF {
+    background-color: #101010;
+    border-left: 1px solid #222;
+    border-right: 1px solid #222;
+    border-top: 1px solid #222;
+}
+.ljgshF {
+    background-color: #080808;
+    border-bottom: 1px solid #222;
+    border-left: 1px solid #222;
+    border-right: 1px solid #222;
+}
+.hITRbH {
+    background-color: #050505;
+}
+.gUiKdF {
+    background-color: #050505;
+}
+.bJRWqo {
+    background-color: #101010;
+    border-left: 1px solid #222;
+    border-right: 1px solid #222;
+    border-top: 1px solid #222;
+}
+.ejJeGa {
+    background-color: #050505;
+}
+.TagSelector {
+    background-color: #090909;
+}
+.TagAddInput {
+    color: #666;
+}
+.TagsListItem {
+    background-color: #000;
+}
+.TagName {
+    color: #666;
+}
+.TagCross img {
+    filter: invert(1);
+}
+.dpKwct {
+    background-color: #050505;
+    color: #bbb;
+}
+.gqyUar {
+    background-color: #050505;
 }
 }
