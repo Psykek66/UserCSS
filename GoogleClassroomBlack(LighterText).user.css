@@ -9,6 +9,7 @@
 ==/UserStyle== */
 @-moz-document domain("classroom.google.com") {
     
+
 /* Header */
 
 .dxu4Dd > .QRiHXd {
@@ -43,9 +44,6 @@
 .JwPp0e .rZXyy {
     background-color: #000;
     border-color: #151515;
-}
-.YVvGBb .YVvGBb {
-	color: #fff;
 }
 
 /* Class card mid */
@@ -83,6 +81,24 @@
 
 .OX4Vcb {
     background-color: #000;
+}
+.qs41qe .asQXV {
+	color: #aaa;
+}
+.TajIHf {
+	color: #aaa;
+}
+.vG1fDb .asQXV {
+	color: #aaa;
+}
+.TMOcX .asQXV {
+	color: #aaa;
+}
+.OX4Vcb div .cd29Sd .YVvGBb {
+	color: #aaa;
+}
+.OX4Vcb > .cd29Sd .YVvGBb {
+	color: #aaa;
 }
 
 /* Classes sidebar preset items */
