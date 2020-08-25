@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           Google Classroom Black Theme (with lighter text)
-@version        1.0.0
+@version        1.0.5
 @description    Night mode for https://classroom.google.com/ with brighter text than my original night mode 
 @author         Psykek/PrototypeChicken
 @namespace      github.com/Psykek66/UserCSS
@@ -432,6 +432,34 @@ a {
 
 .K6Ovqd {
     color: #aaa;
+}
+
+/* Loading Bar */
+
+.kRqvHe.bFjUmb-Ysl7Fe {
+	background-color: #000 !important;
+}
+.DShyMc-MTQxMDE2NjgzNDE5.bFjUmb-Wvd9Cc, .DShyMc-MTQxMDE2NjgzNDE5 .bFjUmb-Wvd9Cc, .DShyMc-MTQxMDE2NjgzNDE5.CNpREd.bFjUmb-Wvd9Cc, .DShyMc-MTQxMDE2NjgzNDE5.CNpREd .bFjUmb-Wvd9Cc {
+    background-color: blue;
+}
+.DShyMc-AaTFfe .bFjUmb-Ysl7Fe {
+	background-color: #000 !important;
+}
+
+/* Comments popup */
+
+.qRUolc {
+	background-color: #aaa;
+	border: 1px solid #222;
+}
+.fb0g6 .Q8U8uc {
+	background-color: #aaa;
+	border: 1px solid #222;
+	border-top: none;
+	padding-top: 10px;
+}
+.Shk6y {
+	color: #555;
 }
 
 /* other */
