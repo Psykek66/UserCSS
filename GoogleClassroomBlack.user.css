@@ -22,7 +22,7 @@
     border-bottom: none;
 }
 .kvxTzd {
-	color: #aaa;
+	color: #555;
 }
 
 /* Area behind header */
@@ -68,14 +68,14 @@
 
 .qjTEB .K0NPx {
     background-color: #000;
-    color: #aaa;
+    color: #555;
 }    
 
 /* Bottom left info tooltip columns */
 
 
 .qjTEB .oJeWuf {
-    color: #aaa;
+    color: #555;
     border-right: #000;
 }
 .qjTEB .oJeWuf:hover {
@@ -88,22 +88,22 @@
     background-color: #000;
 }
 .qs41qe .asQXV {
-	color: #aaa;
+	color: #555;
 }
 .TajIHf {
-	color: #aaa;
+	color: #555;
 }
 .vG1fDb .asQXV {
-	color: #aaa;
+	color: #555;
 }
 .TMOcX .asQXV {
-	color: #aaa;
+	color: #555;
 }
 .OX4Vcb div .cd29Sd .YVvGBb {
-	color: #aaa;
+	color: #555;
 }
 .OX4Vcb > .cd29Sd .YVvGBb {
-	color: #aaa;
+	color: #555;
 }
 
 /* Classes sidebar preset items */
@@ -147,10 +147,10 @@
 /* ^ switch account button */
 
 .TpQm9d .Fxmcue {
-    color: #aaa;
+    color: #555;
 }
 .TpQm9d .Fxmcue:hover {
-    color: #aaa;
+    color: #555;
     background-color: #202020;
 }
 .AeAAkf {
@@ -173,7 +173,7 @@
 
 input.poFWNe.zHQkBf {
     background-color: #101010;
-    color: #aaa;
+    color: #555;
 }
 
 /* ===== class feed ===== */
@@ -188,7 +188,7 @@ input.poFWNe.zHQkBf {
     border: 1px solid #101010;
 }
 .WMQb5e .nforOe {
-    color: #aaa;
+    color: #555;
 }
 
 /* stream assignment */
@@ -208,22 +208,22 @@ input.poFWNe.zHQkBf {
 /* stream assignment text */
 
 .obylVb {
-    color: #aaa;
+    color: #555;
 }
 .obylVb a {
-    color: #aaa;
+    color: #555;
 }
 .DkDwHe .asQXV {
-	color: #aaa;
+	color: #555;
 }
 .QRiHXd .YVvGBb.asQXV {
-	color: #aaa;
+	color: #555;
 }
 
 /* comment area */
 
 .Q8U8uc .Gh0umc.CMmBPd {
-    color: #aaa;
+    color: #555;
     border-top: 1px solid #101010 !important;
 }
 .tLDEHd .NjE5zd {
@@ -289,7 +289,7 @@ input.poFWNe.zHQkBf {
     border: 1px solid #202020;
 }
 .bKJwEd {
-	color: #aaa;
+	color: #555;
 }
 
 /* Classwork tab assignments */
@@ -320,7 +320,7 @@ input.poFWNe.zHQkBf {
 /* Due date */ 
 
 .T3FW5d.YVvGBb {
-   color: #aaa; 
+   color: #555; 
 }
 
 /* Classwork tab filter tabs */
@@ -352,7 +352,7 @@ input.poFWNe.zHQkBf {
     border-bottom: #101010;
 }
 .lXuxY .grsMub {
-    color: #aaa;
+    color: #555;
 }
 .ndcsBf .u73Apc {
     border-color: #000;
@@ -385,19 +385,19 @@ input.poFWNe.zHQkBf {
     border-bottom: 2px solid #101010;
 }
 .DShyMc-MTI5OTUwOTUwOTUw .DqwBN:not(.RDPZE), .DShyMc-MTI5OTUwOTUwOTUw .l3F1ye:not(.RDPZE), .DShyMc-MTI5OTUwOTUwOTUw .BEAGS:not(.RDPZE), .DShyMc-MTI5OTUwOTUwOTUw .AeAAkf:not(.RDPZE) {
-    color: #aaa;
+    color: #555;
 }
 .BiaLW .rpo4wf {
-	color: #aaa;
+	color: #555;
 }
 .BiaLW .YVvGBb span {
-	color: #aaa;
+	color: #555;
 }
 
 /* Private Comments */
 
 .BiaLW .REFDH {
-	color: #aaa;
+	color: #555;
 }
 
 /* Points */
@@ -421,7 +421,7 @@ input.poFWNe.zHQkBf {
 /* upcoming text */
 
 .oBSRLe {
-    color: #aaa;
+    color: #555;
 }
 .WMQb5e > div {
     color: #aaa !important;
@@ -436,7 +436,7 @@ a {
 /* share something with your class */
 
 .K6Ovqd {
-    color: #aaa;
+    color: #555;
 }
 
 /* Loading Bar */
@@ -472,7 +472,7 @@ a {
 /* other */
 
 .ksaOtd {
-    color: #aaa;
+    color: #555;
 }
 .nmFHZb {
     color: #aaa !important;
@@ -502,9 +502,11 @@ a {
 	display: none;
 }
 .evJWRb.M9Bg4d .snByac {
-	color: #aaa;
+	color: #555;
 }
-
+.VnOHwf-Tvm9db .NjE5zd {
+	color: #555;
+}
 .rbygle path {
 	color: #000;
 }
