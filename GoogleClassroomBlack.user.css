@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           Google Classroom Black Theme
-@version        1.0.1
+@version        1.0.5
 @description    Night mode for https://classroom.google.com/
 @author         Psykek/PrototypeChicken
 @namespace      github.com/Psykek66/UserCSS
@@ -14,11 +14,15 @@
     
 /* I've only tried this theme on firefox, chrome, and edge. I know it works pretty well on firefox and chrome, but there are a lot of issues with it on edge. */
     
+
 /* Header */
 
 .dxu4Dd > .QRiHXd {
     background-color: #030303;
     border-bottom: none;
+}
+.kvxTzd {
+	color: #aaa;
 }
 
 /* Area behind header */
@@ -64,14 +68,14 @@
 
 .qjTEB .K0NPx {
     background-color: #000;
-    color: #555;
+    color: #aaa;
 }    
 
 /* Bottom left info tooltip columns */
 
 
 .qjTEB .oJeWuf {
-    color: #555;
+    color: #aaa;
     border-right: #000;
 }
 .qjTEB .oJeWuf:hover {
@@ -82,6 +86,24 @@
 
 .OX4Vcb {
     background-color: #000;
+}
+.qs41qe .asQXV {
+	color: #aaa;
+}
+.TajIHf {
+	color: #aaa;
+}
+.vG1fDb .asQXV {
+	color: #aaa;
+}
+.TMOcX .asQXV {
+	color: #aaa;
+}
+.OX4Vcb div .cd29Sd .YVvGBb {
+	color: #aaa;
+}
+.OX4Vcb > .cd29Sd .YVvGBb {
+	color: #aaa;
 }
 
 /* Classes sidebar preset items */
@@ -125,10 +147,10 @@
 /* ^ switch account button */
 
 .TpQm9d .Fxmcue {
-    color: #555;
+    color: #aaa;
 }
 .TpQm9d .Fxmcue:hover {
-    color: #555;
+    color: #aaa;
     background-color: #202020;
 }
 .AeAAkf {
@@ -151,20 +173,22 @@
 
 input.poFWNe.zHQkBf {
     background-color: #101010;
-    color: #555;
+    color: #aaa;
 }
 
 /* ===== class feed ===== */
 
 /* upcoming */
 
-
+.sxa9Pc {
+	color: #bbb;
+}
 .d4Fe0d {
     background-color: #050505;
     border: 1px solid #101010;
 }
 .WMQb5e .nforOe {
-    color: #444;
+    color: #aaa;
 }
 
 /* stream assignment */
@@ -184,17 +208,29 @@ input.poFWNe.zHQkBf {
 /* stream assignment text */
 
 .obylVb {
-    color: #555;
+    color: #aaa;
 }
 .obylVb a {
-    color: #777;
+    color: #aaa;
+}
+.DkDwHe .asQXV {
+	color: #aaa;
+}
+.QRiHXd .YVvGBb.asQXV {
+	color: #aaa;
 }
 
 /* comment area */
 
 .Q8U8uc .Gh0umc.CMmBPd {
-    color: #555;
+    color: #aaa;
     border-top: 1px solid #101010 !important;
+}
+.tLDEHd .NjE5zd {
+	color: #888;
+}
+.Q8U8uc .aHTZpf .asQXV {
+	color: #bbb;
 }
 
 /* comment box */
@@ -203,10 +239,10 @@ input.poFWNe.zHQkBf {
     border-color: #303030;
 }
 #\:3\.t {
-    color: #555 !important;
+    color: #aaa !important;
 }
 .Q8U8uc .x7VMf {
-    color: #555 !important;
+    color: #aaa !important;
 }
 
 /* View all classwork here */
@@ -239,7 +275,7 @@ input.poFWNe.zHQkBf {
     border-bottom: none !important;
 }
 .Era2ub .XjYjO, .dRIMEd, .jg22B {
-    color: #555 !important;
+    color: #aaa !important;
 }
 
 /* stream preview link */
@@ -251,6 +287,9 @@ input.poFWNe.zHQkBf {
 .Aopndd {
     background-color: #000;
     border: 1px solid #202020;
+}
+.bKJwEd {
+	color: #aaa;
 }
 
 /* Classwork tab assignments */
@@ -274,11 +313,14 @@ input.poFWNe.zHQkBf {
     border-bottom: 1px solid #555 !important;
     border-radius: 0px;
 }
+.UzbjTd {
+	color: #aaa !important;
+}
 
 /* Due date */ 
 
 .T3FW5d.YVvGBb {
-   color: #555; 
+   color: #aaa; 
 }
 
 /* Classwork tab filter tabs */
@@ -310,7 +352,7 @@ input.poFWNe.zHQkBf {
     border-bottom: #101010;
 }
 .lXuxY .grsMub {
-    color: #555;
+    color: #aaa;
 }
 .ndcsBf .u73Apc {
     border-color: #000;
@@ -333,7 +375,7 @@ input.poFWNe.zHQkBf {
 /* icons */
 
 .NMm5M {
-    color: #555 !important;
+    color: #aaa !important;
 }
 
 /* add or create */
@@ -343,7 +385,25 @@ input.poFWNe.zHQkBf {
     border-bottom: 2px solid #101010;
 }
 .DShyMc-MTI5OTUwOTUwOTUw .DqwBN:not(.RDPZE), .DShyMc-MTI5OTUwOTUwOTUw .l3F1ye:not(.RDPZE), .DShyMc-MTI5OTUwOTUwOTUw .BEAGS:not(.RDPZE), .DShyMc-MTI5OTUwOTUwOTUw .AeAAkf:not(.RDPZE) {
-    color: #555;
+    color: #aaa;
+}
+.BiaLW .rpo4wf {
+	color: #aaa;
+}
+.BiaLW .YVvGBb span {
+	color: #aaa;
+}
+
+/* Private Comments */
+
+.BiaLW .REFDH {
+	color: #aaa;
+}
+
+/* Points */
+
+.asQXV .YVvGBb div {
+	color: #999;
 }
 
 /* Mark as done */
@@ -361,10 +421,10 @@ input.poFWNe.zHQkBf {
 /* upcoming text */
 
 .oBSRLe {
-    color: #555;
+    color: #aaa;
 }
 .WMQb5e > div {
-    color: #555 !important;
+    color: #aaa !important;
 }
 
 /* links */
@@ -376,21 +436,75 @@ a {
 /* share something with your class */
 
 .K6Ovqd {
-    color: #555;
+    color: #aaa;
 }
+
+/* Loading Bar */
+
+.kRqvHe.bFjUmb-Ysl7Fe {
+	background-color: #000 !important;
+}
+.DShyMc-MTQxMDE2NjgzNDE5.bFjUmb-Wvd9Cc, .DShyMc-MTQxMDE2NjgzNDE5 .bFjUmb-Wvd9Cc, .DShyMc-MTQxMDE2NjgzNDE5.CNpREd.bFjUmb-Wvd9Cc, .DShyMc-MTQxMDE2NjgzNDE5.CNpREd .bFjUmb-Wvd9Cc {
+    background-color: blue;
+}
+.DShyMc-AaTFfe .bFjUmb-Ysl7Fe {
+	background-color: #000 !important;
+}
+
+/* Comments popup */
+
+.qRUolc {
+	background-color: #050505;
+	border: 1px solid #222;
+}
+.fb0g6 .Q8U8uc {
+	background-color: #050505;
+	border: 1px solid #222;
+	border-top: none;
+	padding-top: 10px;
+}
+.Shk6y {
+	color: #555;
+}
+
+
 
 /* other */
 
 .ksaOtd {
-    color: #555;
+    color: #aaa;
 }
 .nmFHZb {
-    color: #555 !important;
+    color: #aaa !important;
 }
 .etFl5b .QRiHXd {
 	color: #000;
 	text-decoration: underline;
 }
+.fb0g6 {
+	background-color: #050505;
+	border: 1px solid #222;
+	border-top: none;
+}
+.qj5L0 {
+	color: #555;
+	padding-top: 20px;
+}
+.qj5L0 {
+	border-color: #555;
+}
+.J9fJmf {
+	background-color: #050505;
+	border: 1px solid #222;
+	border-top: none;
+}
+.qs41qe .snByac {
+	display: none;
+}
+.evJWRb.M9Bg4d .snByac {
+	color: #aaa;
+}
+
 .rbygle path {
 	color: #000;
 }
