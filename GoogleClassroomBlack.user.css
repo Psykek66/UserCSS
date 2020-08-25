@@ -1,11 +1,11 @@
 /* ==UserStyle==
-@name           Google Classroom Black Theme (with lighter text)
+@name           Google Classroom Black Theme
 @version        1.0.5
 @description    Night mode for https://classroom.google.com/ with brighter text than my original night mode 
 @author         Psykek/PrototypeChicken
 @namespace      github.com/Psykek66/UserCSS
 @homepageURL    https://github.com/Psykek66/UserCSS
-@updateURL      https://raw.githubusercontent.com/Psykek66/UserCSS/master/GoogleClassroomBlack(LighterText).user.css
+@updateURL      https://raw.githubusercontent.com/Psykek66/UserCSS/master/GoogleClassroomBlack.user.css
 ==/UserStyle== */
 @-moz-document domain("classroom.google.com") {
     
