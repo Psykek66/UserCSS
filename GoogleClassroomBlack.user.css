@@ -1,14 +1,25 @@
 /* ==UserStyle==
 @name           Google Classroom Black Theme
-@version        1.1.0
-@description    Night mode for https://classroom.google.com/ with brighter text than my original night mode 
+@version        1.1.1
+@description    Night mode for https://classroom.google.com/
 @author         Psykek/PrototypeChicken
 @namespace      github.com/Psykek66/UserCSS
 @homepageURL    https://github.com/Psykek66/UserCSS
 @updateURL      https://raw.githubusercontent.com/Psykek66/UserCSS/master/GoogleClassroomBlack.user.css
 ==/UserStyle== */
+
+
+/* ===== UPDATE LOG ======     
+v1.1.0 
+- Fixed buttons disappearing when clicking on them
+
+v1.1.1
+- Fixed some more white lines
+- Fixed some invisible text
+- Fixed a popup header that was still white
+=====/UPDATE LOG ===== */
+
 @-moz-document domain("classroom.google.com") {
-    
 
 /* Header */
 
@@ -499,5 +510,20 @@ a {
 }
 .rbygle path {
 	color: #000;
+}
+.BiaLW .Gh0umc.CG2qQ {
+	border-top: 1px solid #111 !important;
+}
+.zZ8fDe {
+	color: #aaa;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.qRUolc {
+	background-color: #050505 !important;
+	color: #aaa;
+}
+.Shk6y {
+	color: #aaa !important;
 }
 }
