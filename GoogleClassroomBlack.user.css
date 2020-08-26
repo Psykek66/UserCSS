@@ -11,12 +11,13 @@
 
 /* ===== UPDATE LOG ======     
 v1.1.0 
-- Fixed buttons disappearing when clicking on them
+- Fixed buttons disappearing when clicking on them, making the site possible to navigate again
 
 v1.1.1
 - Fixed some more white lines
 - Fixed some invisible text
 - Fixed a popup header that was still white
+- Added update log
 =====/UPDATE LOG ===== */
 
 @-moz-document domain("classroom.google.com") {
