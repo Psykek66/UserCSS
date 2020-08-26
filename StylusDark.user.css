@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           StylusDark
-@version        1.1.0
+@version        1.1.5
 @description    Night mode for Stylus
 @author         Psykek/PrototypeChicken
 @namespace      github.com/Psykek66/UserCSS
@@ -16,6 +16,15 @@
 4. Paste the shortened link into the url-prefix section of the script
 
 You may have to redo this every time the stylus extension updates */
+
+/* ===== UPDATE LOG ===== 
+
+v1.1.5
+- Changed the color of the active line in the editor from white to dark grey (really just changed the transparency)
+- Changed the delete style screen from white to black
+- Changed the color of the hotkey screen from white to black (via invert filter)
+
+ ===== /UPDATE LOG ===== */
 
 @-moz-document url-prefix("moz-extension://"), url-prefix("chrome-extension://") {
 
@@ -113,7 +122,8 @@ input, button {
     color: #888;
 }
 button:hover {
-     background-image: linear-gradient(to top, #000 , #151515) !important;    
+     background-image: linear-gradient(to top, #000 , #151515) !important;   
+    cursor: pointer;
 }    
 .cm-atom {
     color: #00abff !important;
@@ -160,5 +170,17 @@ a:hover {
 #installed {
     border-color: #333;
      background-image: linear-gradient(to top, #050505 , #101010);
+}
+.menu-items-wrapper {
+    background-color: #101010;
+}
+#hotkey-info[data-active] {
+    filter: invert(1);
+}
+#hotkey-info button {
+    filter: invert(1);    
+}
+.CodeMirror pre.CodeMirror-line, .CodeMirror pre.CodeMirror-line-like {
+    background: #000000eb;
 }
 }
