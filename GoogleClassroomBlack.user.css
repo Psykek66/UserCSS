@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           Google Classroom Black Theme
-@version        1.0.5
+@version        1.1.0
 @description    Night mode for https://classroom.google.com/ with brighter text than my original night mode 
 @author         Psykek/PrototypeChicken
 @namespace      github.com/Psykek66/UserCSS
@@ -490,9 +490,6 @@ a {
 	background-color: #050505;
 	border: 1px solid #222;
 	border-top: none;
-}
-.qs41qe .snByac {
-	display: none;
 }
 .evJWRb.M9Bg4d .snByac {
 	color: #aaa;
