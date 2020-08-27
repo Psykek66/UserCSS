@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           Google Classroom Black Theme
-@version        1.1.1
+@version        1.1.2
 @description    Night mode for https://classroom.google.com/
 @author         Psykek/PrototypeChicken
 @namespace      github.com/Psykek66/UserCSS
@@ -11,13 +11,16 @@
 
 /* ===== UPDATE LOG ======     
 v1.1.0 
-- Fixed buttons disappearing when clicking on them, making the site possible to navigate again
+- Fixed buttons disappearing when clicking on them
 
 v1.1.1
 - Fixed some more white lines
 - Fixed some invisible text
 - Fixed a popup header that was still white
-- Added update log
+
+v1.1.2
+- Changed color of white loading bar on comments
+- Simplified class headers (very bottom of style, remove if you don't like)
 =====/UPDATE LOG ===== */
 
 @-moz-document domain("classroom.google.com") {
@@ -526,5 +529,37 @@ a {
 }
 .Shk6y {
 	color: #aaa !important;
+}
+.PeGHgb .bFjUmb-Ysl7Fe {
+	background-color: #000;
+}
+
+
+/* ==== Class Header ==== */
+
+.PagUde {
+	background-image: none !important;
+}
+.qyN25 {
+	background-color: #050505;
+	border: 1px solid #222;
+	border-radius: 10px;
+}
+.etFl5b .QRiHXd {
+	color: #ccc !important
+}
+.rbygle path {
+	color: #ccc !important;
+}
+.v9TZ3c {
+	background-color: #050505 !important;
+	border-right: 1px solid #222;
+	border-radius: 10px;
+}
+.PFLqgc {
+	background-image: none !important;
+}
+.KFl4Z {
+	background: none !important;
 }
 }
