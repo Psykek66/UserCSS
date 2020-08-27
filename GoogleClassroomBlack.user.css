@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           Google Classroom Black Theme
-@version        1.1.2
+@version        1.1.3
 @description    Night mode for https://classroom.google.com/
 @author         Psykek/PrototypeChicken
 @namespace      github.com/Psykek66/UserCSS
@@ -22,6 +22,10 @@ v1.1.2
 - Changed color of white loading bar on comments
 - Simplified class headers (very bottom of style, remove if you don't like)
 - Changed color of white line between upcoming assignments
+
+v1.1.3
+- Changed color of white space behind class header
+- Changed color of dropdown under class header (class headers w/ a dropdown are lighter colored when using this style)
 =====/UPDATE LOG ===== */
 
 @-moz-document domain("classroom.google.com") {
@@ -538,8 +542,6 @@ a {
 	border-top-color: #222 !important;
 }
 
-
-
 /* ==== Class Header ==== */
 
 .PagUde {
@@ -566,5 +568,17 @@ a {
 }
 .KFl4Z {
 	background: none !important;
+}
+
+/* Classroom Header Dropdown */
+
+.IzVHde {
+	background-color: #101010;
+	box-shadow: none !important;
+	border: 1px solid #222;
+	border-top: none;
+}
+.bFjUmb-Tvm9db.GWZ7yf {
+	border: 1px solid #222;
 }
 }
