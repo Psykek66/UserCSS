@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           Google Classroom Black Theme
-@version        1.1.4
+@version        1.1.5
 @description    Night mode for https://classroom.google.com/
 @author         Psykek/PrototypeChicken
 @namespace      github.com/Psykek66/UserCSS
@@ -32,6 +32,9 @@ v1.1.4
 - Fixed some invisible text
 - Changed the color of the text in the textbox to make it more visible
 - Fixed the top border of the bottom part of the assignments from turning white when you minimize the assignment 
+
+v1.1.5
+- Fixed assignments when clicking "view all" under work due (color/border-color/background-color)
 =====/UPDATE LOG ===== */
 
 @-moz-document domain("classroom.google.com") {
@@ -586,6 +589,26 @@ a {
 }
 .KFl4Z {
 	background: none !important;
+}
+.AZd1I .SFCE1b:hover {
+	border-color: #333;
+}
+.zvbGS .aSG3qe .YVvGBb {
+	color: #aaa;
+}
+.AZd1I .aSG3qe .YVvGBb {
+	color: #fff;
+}
+.UW3s6d {
+	background-color: #050505;
+}
+.P02DYb {
+	background-color: #050505;
+	border-color: #333;
+}
+.u73Apc {
+    align-items: center;
+    border-bottom: .0625rem solid #333;
 }
 
 /* Classroom Header Dropdown */
