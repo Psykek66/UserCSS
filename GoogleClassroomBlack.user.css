@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           Google Classroom Black Theme
-@version        1.1.5
+@version        1.1.6
 @description    Night mode for https://classroom.google.com/
 @author         Psykek/PrototypeChicken
 @namespace      github.com/Psykek66/UserCSS
@@ -38,6 +38,7 @@ v1.1.5
 
 v1.1.6
 - Fixed invisible text when unsubmitting an assignment
+- Fixed page when clicking "View all" for upcoming assignments (white to black)
 =====/UPDATE LOG ===== */
 
 @-moz-document domain("classroom.google.com") {
