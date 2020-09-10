@@ -35,6 +35,9 @@ v1.1.4
 
 v1.1.5
 - Fixed assignments when clicking "view all" under work due (color/border-color/background-color)
+
+v1.1.6
+- Fixed invisible text when unsubmitting an assignment
 =====/UPDATE LOG ===== */
 
 @-moz-document domain("classroom.google.com") {
@@ -270,6 +273,9 @@ input.poFWNe.zHQkBf {
 }
 #\:c\.t {
 	color: #888;
+}
+#\:1h\.t {
+	color: #aaa !important;
 }
 
 /* View all classwork here */
@@ -609,6 +615,11 @@ a {
 .u73Apc {
     align-items: center;
     border-bottom: .0625rem solid #333;
+}
+.XGSlvc .XGSlvc .XGSlvc {
+	color: #aaa;
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
 
 /* Classroom Header Dropdown */
