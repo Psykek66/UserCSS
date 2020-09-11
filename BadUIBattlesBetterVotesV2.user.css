@@ -1,0 +1,77 @@
+/* ==UserStyle==
+@name           BadUIBattles Better Voting System V2
+@version        2.0.0
+@description    This switches the upvote and downvote buttons and makes them spin.
+@author         Psykek/PrototypeChicken
+@namespace      github.com/Psykek66/UserCSS
+@homepageURL    https://github.com/Psykek66/UserCSS/blob/master/BadUIBattlesBetterVotesV2.user.css
+@updateURL      https://raw.githubusercontent.com/Psykek66/UserCSS/master/BadUIBattlesBetterVotesV2.user.css
+==/UserStyle== */
+@-moz-document url("https://www.reddit.com/r/badUIbattles/") {
+    @-moz-keyframes spin {
+        100% {
+            -moz-transform: rotate(360deg);
+        }
+    }
+    @-webkit-keyframes spin {
+        100% {
+            -webkit-transform: rotate(360deg);
+        }
+    }
+    @keyframes spin {
+        100% {
+            -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+        }
+    }
+    ._3yQIOwaIuF6gn8db96Gu7y {
+        position: absolute;
+        margin-top: -54px;
+        margin-left: -13px;
+        -webkit-animation: spin 4s linear infinite;
+        -moz-animation: spin 4s linear infinite;
+        animation: spin 4s linear infinite;
+    }
+    .Z3lT0VGlALek4Q9j0ZQCr {
+        position: absolute;
+        margin-top: 30px;
+        margin-left: -12px;
+        color: #ff4500 !important;
+        -webkit-animation: spin 4s linear infinite;
+        -moz-animation: spin 4s linear infinite;
+        animation: spin 4s linear infinite;
+    }
+    .Q0BxYHtCOJ_rNSPJMU2Y7._3emIxnIscWEPB7o5LgU_rn {
+        position: absolute;
+        margin-top: -55px;
+        margin-left: -10px;
+        color: #6565fd !important;
+        -webkit-animation: spin 4s linear infinite;
+        -moz-animation: spin 4s linear infinite;
+        animation: spin 4s linear infinite;
+    }
+    ._23h0-EcaBUorIHC-JZyh6J .ZyxIIl4FP5gHGrJDzNpUC {
+        position: absolute;
+        margin-top: 0px;
+        margin-left: -3px;
+        -webkit-animation: spin 4s linear infinite;
+        -moz-animation: spin 4s linear infinite;
+        animation: spin 4s linear infinite;
+    }
+    ._23h0-EcaBUorIHC-JZyh6J ._3edNsMs0PNfyQYofMNVhsG {
+        position: absolute;
+        margin-top: 34px;
+        margin-left: -11px;
+        -webkit-animation: spin 4s linear infinite;
+        -moz-animation: spin 4s linear infinite;
+        animation: spin 4s linear infinite;
+    }
+    ._23h0-EcaBUorIHC-JZyh6J ._2Jxk822qXs4DaXwsN7yyHA {
+        position: absolute;
+        margin-top: 5px;
+        margin-left: -11px;
+        -webkit-animation: spin 4s linear infinite;
+        -moz-animation: spin 4s linear infinite;
+        animation: spin 4s linear infinite;
+    }
+}
