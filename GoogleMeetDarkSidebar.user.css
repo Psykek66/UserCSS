@@ -1,0 +1,139 @@
+/* ==UserStyle==
+@name           Google Meet Dark Sidebar
+@version        1.0.0
+@description    This makes the sidebar and bottom controls bar for Google Meet dark. The dark theme does not touch up on some of the stuff on the people tab, so I recommend you just keep the comments tab open.
+@author         Psykek/PrototypeChicken
+@namespace      github.com/Psykek66/UserCSS
+@homepageURL    https://github.com/Psykek66/UserCSS/blob/master/GoogleMeetDarkSidebar.user.css
+@updateURL      https://raw.githubusercontent.com/Psykek66/UserCSS/master/GoogleMeetDarkSidebar.user.css
+==/UserStyle== */
+@-moz-document domain("meet.google.com") {
+    .CYZUZd {
+        background-color: #000;
+        color: #ccc;
+    }
+    .VfPpkd-kBDsod {
+        color: #ccc;
+    }
+    .ZHdB2e .kaAt2 {
+        background-color: #101010;
+        color: #ccc;
+    }
+    .ZHdB2e .kaAt2:hover {
+        background-color: #202020;
+    }
+    .azXnTb .Mwv9k .NMm5M {
+        color: #ccc;
+    }
+    .KKjvXb .eUyZxf {
+        color: #ccc;
+    }
+    .q21cab.ZjAUM .s7bIcf {
+        background-color: #ccc;
+    }
+    .GDhqjd {
+        background-color: #151515;
+    }
+    .q21cab {
+        border-color: #202020 !important;
+    }
+    .YTbUzc {
+        color: #ccc;
+    }
+    .oIy2qc {
+        color: #aaa;
+    }
+    .BC4V9b {
+        background-color: #000;
+        color: #ccc;
+    }
+    .Cs0vCd.RDPZE .e3AdI {
+        color: #00796b;
+    }
+    .DnclOd .tL9Q4c {
+        color: #ccc;
+    }
+    .XnKlKd .tL9Q4c {
+        color: #ccc;
+    }
+    .XnKlKd .mIZh1c {
+        background-color: #00796b;
+    }
+    .uFGEzd {
+        background-color: #202020;
+        border-bottom: none;
+    }
+    .Bs3rEf {
+        color: #000;
+    }
+    .tmIkuc.s2gQvd {
+        background-color: #202020;
+    }
+    .NkoVdd {
+        color: #ccc;
+    }
+    .EKGkc .snByac {
+        background-color: #000;
+        color: #ccc;
+    }
+    .CkXZgc {
+        color: #ccc;
+    }
+    .W59Cyb {
+        color: #ccc;
+    }
+    .jzP6rf {
+        background-color: #000;
+    }
+    .q2u11 {
+        background-color: #000;
+    }
+    .SyIese .Fxmcue {
+        background-color: #000;
+    }
+    .XMjwIe {
+        background-color: #000;
+    }
+    .nByyte .snByac {
+        background-color: #000;
+    }
+    .I98jWb {
+        color: #ccc;
+    }
+    .YhIwSc {
+        color: #ccc;
+    }
+    .XFtqNb .google-material-icons {
+        color: #ccc;
+    }
+    .o9fq9d .NMm5M {
+        color: #ccc;
+    }
+    .nByyte .NMm5M {
+        color: #ccc;
+    }
+    .f0WtFf {
+        background-color: #000;
+    }
+    .qs41qe .Fxmcue {
+        background-color: #000 !important;
+    }
+    .IeuGXd .l4V7wb {
+        background-color: #000;
+        color: #ccc;
+    }
+    .kCyAyd .l4V7wb {
+        background-color: #000;
+        color: #ccc;
+    }
+    .NzPR9b {
+        background-color: #000;
+        color: #ccc;
+    }
+    .z38b6 {
+        background-color: #202020;
+    }
+    .I9c2Ed .Fxmcue {
+        background-color: #fff;
+    }
+}
