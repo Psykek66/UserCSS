@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           Google Classroom Black Theme
-@version        1.1.6
+@version        1.1.7
 @description    Night mode for https://classroom.google.com/
 @author         Psykek/PrototypeChicken
 @namespace      github.com/Psykek66/UserCSS
@@ -39,6 +39,10 @@ v1.1.5
 v1.1.6
 - Fixed invisible text when unsubmitting an assignment
 - Fixed page when clicking "View all" for upcoming assignments (white to black)
+
+v1.1.7
+- A new update to Google classroom made the header white; this has been fixed.
+- Fixed invisible text when the teacher posts a question
 =====/UPDATE LOG ===== */
 
 @-moz-document domain("classroom.google.com") {
@@ -52,6 +56,16 @@ v1.1.6
 .kvxTzd {
 	color: #aaa;
 }
+.joJglb > .QRiHXd {
+	background-color: #000;
+	border-color: #000 !important;
+	box-shadow: none !important;
+}
+.joJglb {
+	box-shadow: none !important;
+	border-color: #303030;
+}
+
 
 /* Area behind header */
 
@@ -507,6 +521,12 @@ a {
 
 /* other */
 
+.CDELXb .tL9Q4c {
+	color: #aaa;
+}
+.CDELXb .Wic03c {
+	border-bottom: 1px solid #aaa;
+}
 .ksaOtd {
     color: #aaa;
 }
@@ -568,7 +588,9 @@ a {
     border-top: .0625rem solid #222;
     border-top-color: #222;
 }
-
+#\:a\.t {
+	color: #aaa;
+}
 
 /* ==== Class Header ==== */
 
