@@ -1,10 +1,18 @@
 /* ==UserStyle==
 @name           V3rmillion Clearsky
 @namespace      https://github.com/Psykek66/UserCSS/blob/master/V3rmillionClearsky.user.css
-@version        1.0.0
+@version        1.0.1
 @description    There's a sky and clear things. Not much to say
 @author         Psykek   |   Psykek#3699
 ==/UserStyle== */
+
+
+/* ==== PATCH NOTES ====
+
+1.0.1
+- Added styling for codeblocks
+
+*/
 
 @-moz-document url-prefix("https://v3rmillion.net/") {
     /* ------ Header ------ */
