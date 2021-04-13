@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           V3rmillion Clearsky
 @namespace      https://github.com/Psykek66/UserCSS/blob/master/V3rmillionClearsky.user.css
-@version        1.0.1
+@version        1.0.2
 @description    There's a sky and clear things. Not much to say
 @author         Psykek   |   Psykek#3699
 ==/UserStyle== */
@@ -12,11 +12,16 @@
 1.0.1
 - Added styling for codeblocks
 
+1.0.2
+- Added styling for message notification and banner alert
+- Fixed styling interfering with some name colors
+- Added styling to fieldset
+
 */
 
 @-moz-document url-prefix("https://v3rmillion.net/") {
     /* ------ Header ------ */
-
+    
 #header {
     background-color: #000;
     background-image: url("");
@@ -338,6 +343,13 @@ b a {
 .possible {
     background-color:rgba(0,0,0,0.6);
     color: pink;
+}
+.codeblock {
+    background-color:rgba(0,0,0,0.5);
+    color: pink;
+}
+.codeblock .title {
+    border-bottom-color: pink;
 }
 #content .tborder {
     background-color:rgba(0,0,0,0);
@@ -755,25 +767,49 @@ div.sceditor-toolbar, div.sceditor-toolbar, .sceditor-container
 /* Container */
   .sceditor-container iframe, .sceditor-container textarea
   {
-    background-color:rgba(255,255,255,0.7) !important;
-      color: pink !important
-    padding-left: 0px !important;
+    background-color:rgba(217,214,214,0.5) !important;
+    padding-left: 10px !important;
     width: 100% !important;
     border-top: solid thin var(--th_color) !important;
-    padding: 0px 0 !important;
-      width: 99% !important;
+    padding: 5px 0 !important;
   }
 .alert_new, .alert_count {
     background-color:rgba(0,0,0,0.5) !important;
     border: 1px solid pink;
     color: pink !important;
 }
-.codeblock {
-    background-color:rgba(0,0,0,0.5);
+.pm_alert {
+    background-color:rgba(0,0,0,0.5) !important;
+    border: 1px solid pink;
+    color: pink !important;
+}
+.pm_alert a {
+    color: rgb(219,66,219) !important;
+}
+.pm_new, .pm_count {
+    background-color:rgba(0,0,0,0.5) !important;
+    border: 1px solid pink;
+    color: pink !important;
+}
+.largetext strong {
+    color: inherit !important;
+}
+#content .trow2 strong {
+    color: inherit !important;
+}
+#content .trow1 strong {
+    color: inherit;
+}
+em {
     color: pink;
 }
-.codeblock .title {
-    border-bottom-color: pink;
+fieldset > .smalltext {
+    color: pink;
+}
+fieldset {
+    background-color:rgba(0,0,0,0.5) !important;
+    border: 1px solid pink;
+    color: pink !important;
 }
 
 /* ------ buttons ------ */
@@ -811,6 +847,5 @@ div[id*="like_buttons"]
 div[onclick*="Advert"]
   {
     display: none;
-  }
-
+  } 
 }
