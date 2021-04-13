@@ -747,11 +747,13 @@ div.sceditor-toolbar, div.sceditor-toolbar, .sceditor-container
 /* Container */
   .sceditor-container iframe, .sceditor-container textarea
   {
-    background-color:rgba(217,214,214,0.5) !important;
-    padding-left: 10px !important;
+    background-color:rgba(255,255,255,0.7) !important;
+      color: pink !important
+    padding-left: 0px !important;
     width: 100% !important;
     border-top: solid thin var(--th_color) !important;
-    padding: 5px 0 !important;
+    padding: 0px 0 !important;
+      width: 99% !important;
   }
 .alert_new, .alert_count {
     background-color:rgba(0,0,0,0.5) !important;
