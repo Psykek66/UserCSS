@@ -1,1 +1,800 @@
+/* ==UserStyle==
+@name           V3rmillion Clearsky
+@namespace      https://raw.githubusercontent.com/Psykek66/UserCSS/master/V3rmillionClearsky.css
+@version        1.0.0
+@description    There's a sky and clear things. Not much to say
+@author         Psykek   |   Psykek#3699
+==/UserStyle== */
 
+@-moz-document domain("https://v3rmillion.net/") {
+    /* ------ Header ------ */
+
+#header {
+    background-color: #000;
+    background-image: url("");
+    background-repeat:   no-repeat;
+    background-position: center center;
+    background-size: 70px;
+}
+#logo img {
+    filter: invert(1) hue-rotate(140deg);
+}
+
+/* ------ Nav ------ */
+
+#bridge {
+    background-color:rgba(0,0,0,1);
+}
+#bridge {
+    border-bottom: 5px solid rgb(105,23,105);
+}
+ul.panel_links li a:hover {
+    background-color: rgb(105,23,105);
+    color: black;
+}
+.ddm_anchor > a:hover {
+    background-color: rgb(105,23,105);
+    color: black;
+}
+.panel_buttons {
+    background-color: rgb(0,0,0);
+    border: none;
+}
+.panel_buttons a {
+    color: rgb(202,73,202);
+    transition: .5s;
+}
+.panel_buttons a:hover {
+    background-color: #000;
+    color: pink;
+    transition: 0.5s;
+}
+ul.menu li a {
+    color: rgb(202,73,202);
+}
+.ddm_anchor strong {
+    color: rgb(202,73,202);
+}
+ul.panel_links li a {
+    color: rgb(202,73,202);
+}
+ul.menu li a:hover, ul.menu li a.active {
+    background-color: rgb(105,23,105);
+    color: black;
+}
+.ddm {
+    border-color: rgb(105,23,105) !important;
+    background-color: #000 !important;
+}
+.ddm a {
+    background-color: #000 !important;
+    color: rgb(202,73,202);
+    transition: 0.5s;
+}
+.ddm a:hover {
+    color: pink !important;
+    transition: 0.5s;
+}
+
+/* ------ Main background ------ */
+
+#wrapper {
+    background-image: url("https://i.imgur.com/SbN5FCP.png");
+    background-color: white;
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center; 
+}
+body {
+    background-image: url("https://i.imgur.com/SbN5FCP.png");
+    background-color: white;
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center; 
+}
+
+/* ------ Main ------ */
+
+.forum_off {
+    color: pink;
+}
+#cat_3_e .trow2 strong a {
+    text-decoration: none !important;
+}
+#cat_3_e .trow1 strong a {
+    text-decoration: none !important;
+}
+.trow2 .sub_control a {
+    text-decoration: none !important;
+}
+
+.spoiler_header a {
+    background-color:rgba(0,0,0,0.4) !important;
+    color: pink !important;
+    border-radius: 100px;
+}
+.spoiler_header {
+    background-color:rgba(0,0,0,0.5) !important;
+    color: pink !important;
+    background: black !important;
+    border: none;
+}
+.spoiler_body {
+    color: pink;
+    border: none;
+    background-color:rgba(0,0,0,0.4) !important;
+    padding: 15px;
+}
+.trow2 .smalltext strong {
+    text-decoration: none !important;
+}
+* {
+    text-decoration: none !important;
+}
+.alert__content a {
+    color: pink;
+}
+.current .smalltext > a {
+    color: pink;
+}
+.modal .float_right a {
+    color: pink !important;
+}
+.navigation, #content {
+    background-color:rgba(0,0,0,0.5);
+}
+#cat_3_e .trow2 strong a {
+    color: pink;
+}
+#sid_1_e .trow1 a {
+    color: pink;
+    text-decoration: underline;
+}
+.thead a {
+    text-decoration: none !important;
+}
+#sid_2_e .trow1 a {
+    color: pink;
+    text-decoration: underline;
+}
+#cat_3_e .trow1 strong a {
+    color: pink;
+}
+#cat_3_e .trow2 .smalltext strong {
+    color: pink;
+}
+#cat_3_e .trow1 .smalltext strong {
+    color: pink;
+}
+#cat_3_e .trow2 span.smalltext a {
+    color: pink;
+}
+#cat_3_e .trow1 span.smalltext a {
+    color: pink;
+}
+#cat_3_e .tcat strong {
+    color: pink;
+}
+.thead a {
+    color: pink !important;
+}
+#cat_34_e .trow2 strong a {
+    color: pink;
+}
+#cat_34_e .trow1 strong a {
+    color: pink;
+}
+#cat_34_e .trow2 .smalltext strong {
+    color: pink;
+}
+.signature {
+    border-top-color: pink !important;
+    border: 1px solid pink;
+    padding: 15px !important;
+}
+.thead input.textbox {
+    box-shadow: none !important;
+    border: pink !important;
+}
+#cat_34_e .trow1 .smalltext strong {
+    color: pink;
+}
+#cat_34_e .trow2 .smalltext a {
+    color: pink;
+}
+#cat_34_e .trow1 .smalltext a {
+    color: pink;
+}
+#cat_34_e .tcat strong {
+    color: pink;
+}
+#cat_8_e .tcat strong {
+    color: pink;
+}
+#message {
+    border: 1px solid pink !important;
+}
+#cat_8_e .trow1 strong a {
+    color: pink;
+}
+#cat_8_e .trow2 strong a {
+    color: pink;
+}
+#cat_8_e .trow1 .smalltext strong {
+    color: pink;
+}
+#cat_8_e .trow2 .smalltext strong {
+    color: pink;
+}
+#cat_8_e .trow1 .smalltext a {
+    color: pink;
+}
+#cat_8_e .trow2 .smalltext a {
+    color: pink;
+}
+#cat_7_e .tcat strong {
+    color: pink;
+}
+#cat_7_e .trow2 strong a {
+    color: pink;
+}
+#cat_7_e .trow1 strong a {
+    color: pink;
+}
+#cat_7_e .trow1 span.smalltext a {
+    color: pink;
+}
+#cat_7_e .trow2 .smalltext a {
+    color: pink;
+}
+#content td {
+    color: pink;
+}
+#cat_27_e .trow1 strong a {
+    color: pink;
+}
+#cat_27_e .trow1 .smalltext a {
+    color: pink;
+}
+#cat_27_e .trow2 .smalltext a {
+    color: pink;
+}
+#cat_27_e .trow2 strong a {
+    color: pink;
+}
+#cat_17_e strong a {
+    color: pink;
+}
+#cat_17_e .trow1 .smalltext strong {
+    color: pink;
+}
+#cat_17_e span.smalltext a {
+    color: pink;
+}
+#cat_17_e .tcat strong {
+    color: pink;
+}
+#cat_6_e span.smalltext a {
+    color: pink;
+}
+#cat_6_e .tcat strong {
+    color: pink;
+}
+#cat_6_e strong a {
+    color: pink;
+}
+#content .thead strong {
+    color: pink;
+}
+#boardstats_e .tcat strong {
+    color: pink;
+}
+#boardstats_e .tcat .smalltext {
+    color: pink;
+}
+.tcat a {
+    color: pink !important;
+}
+b a {
+    color: pink !important;
+}
+#content .trow2 a {
+    color: pink;
+    text-decoration: underline;
+}
+#content .trow2 {
+    color: pink !important;
+}
+#content .trow1 {
+    color: pink !important;
+}
+.usercp_nav_item {
+    color: pink !important;
+    text-decoration: none !important;
+}
+#content .trow1 > a {
+    text-decoration: none !important;
+}
+
+#content {
+    border: none;
+}
+#content .thead, .tfoot {
+    background-color:rgba(0,0,0,0.6);
+    border-radius: 0px;
+}
+.likely {
+    background-color:rgba(0,0,0,0.6);
+    color: pink;
+}
+.possible {
+    background-color:rgba(0,0,0,0.6);
+    color: pink;
+}
+#content .tborder {
+    background-color:rgba(0,0,0,0);
+}
+#content > div {
+    margin-bottom: 22px;
+}
+.tcat {
+    background-color: rgba(0,0,0,0.5);
+}
+.tcat {
+    padding-top: 5px;
+    padding-bottom: 6px;
+}
+.trow2, .trow1 {
+    background-color: rgba(0,0,0,0.3);
+    border: none;
+    color: rgb(255,118,255);
+}
+.trow_sep {
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+}
+#sharingPlace {
+    display: none !important;
+}
+.trow2.forumdisplay_regular span .smalltext a {
+    color: rgb(255,118,255) !important; 
+}
+.trow1.forumdisplay_regular span .smalltext a {
+    color: rgb(255,118,255) !important;
+}
+b {
+    color: rgb(255,118,255) !important;
+}
+strong a {
+    color: pink !important;
+    text-decoration: underline !important;
+}
+#footer {
+    background-color:rgba(0,0,0,0.5);
+    color: pink !important;
+    border-color: rgb(105,23,105) !important;
+}
+.cRem {
+    color: pink !important;
+}
+.cRem a {
+    filter: invert(1) hue-rotate(170deg);
+    text-decoration: underline;
+}
+.bottommenu {
+    background-color:rgba(0,0,0,0.4) !important;
+    color: pink !important;
+}
+.bottommenu a {
+    color: pink !important;
+}
+dd {
+    color: pink;
+}
+select {
+    background-color:rgba(255,255,255,1) !important;
+    color: green !important;
+    border: 1px solid green;
+    filter: invert(1);
+}
+select option {
+    background-color:rgba(0,0,0,1) !important;
+    color: pink !important;
+}
+form strong {
+    color: pink;
+}
+input.textbox {
+    background-color:rgba(0,0,0,0.4) !important;
+    color: pink !important;
+    border: 1px solid #000;
+}
+.navigation a {
+    color: pink;
+}
+.trow1 .sub_control {
+    background-color:rgba(0,0,0,0.4) !important;
+    color: pink !important;
+    border: 1px solid #000;
+}
+.navigation .active {
+    color: pink;
+}
+.navigation {
+    color: pink;
+}
+.navigation img {
+    background-image: url("https://i.imgur.com/3Jsc2XL.png");
+    background-size:     cover;                    
+    background-repeat:   no-repeat;
+    background-position: center center;   
+}
+#copyright {
+    color: pink;
+}
+input {
+    background-color:rgba(0,0,0,0.4) !important;
+    color: pink !important;
+    border: 1px solid #000;
+}
+.pages {
+    color: pink;
+}
+.tcat strong {
+    color: pink;
+}
+.trow2 > .smalltext a {
+    color: pink;
+}
+.trow2 strong a {
+    color: pink;
+}
+#content > div > .smalltext {
+    color: pink;
+}
+.forum_on {
+    color: rgb(196,64,196) !important;
+}
+.pagination_current {
+    background-color: pink !important;
+    color: #000 !important;
+    border: none !important;
+}
+#cat_17_e .sub_control {
+    background-color:rgba(0,0,0,0.4) !important;
+    color: pink !important;
+    border: 1px solid #000;
+}
+#cat_17_e .sub_control a {
+    color: pink;
+}
+#cat_6_e .sub_control {
+    background-color:rgba(0,0,0,0.4) !important;
+    color: pink !important;
+    border: 1px solid #000;
+}
+#cat_6_e .sub_control a {
+    color: pink;
+}
+#cat_7_e .sub_control {
+    background-color:rgba(0,0,0,0.4) !important;
+    color: pink !important;
+    border: 1px solid #000;
+}
+#cat_7_e .sub_control a {
+    color: pink;
+}
+.trow2 .sub_control {
+    background-color:rgba(0,0,0,0.4) !important;
+    color: pink !important;
+    border: 1px solid #000;
+}
+#cat_3_e .trow1 .sub_control {
+    background-color:rgba(0,0,0,0.4) !important;
+    color: pink !important;
+    border: 1px solid #000;
+}
+#cat_3_e .trow1 .sub_control a {
+    color: pink;
+}
+.tfoot .smalltext {
+    color: pink !important;
+}
+.tfoot .smalltext a {
+    color: pink;
+}
+.thread_head {
+    background-color:rgba(0,0,0,0.4) !important;
+    color: pink !important;
+    border: 1px solid #000;
+}
+.thread_title {
+    color: pink;
+}
+#post_7853199 .post_head {
+    border: none;
+    color: pink;
+}
+#post_7853199 .post_date {
+    color: pink;
+}
+.postlink {
+    background-color:rgba(0,0,0,1) !important;
+    color: pink !important;
+    border: 1px solid #000;
+}
+.post .post_author {
+    background-color:rgba(0,0,0,0.4) !important;
+    color: pink !important;
+    border: 1px solid #000;
+}
+.post .post_author div.author_avatar img {
+    background-color:rgba(0,0,0,0.3) !important;
+    color: pink !important;
+    border: 1px solid #000;
+}
+.post .post_author div.author_statistics {
+    background-color:rgba(0,0,0,0.3) !important;
+    color: pink !important;
+    border: 1px solid #000;
+}
+.reputation_positive {
+    color: pink;
+}
+.normal_warning {
+    color: pink;
+}
+.post_body {
+    color: pink;
+}
+.post_controls {
+    background-color:rgba(0,0,0,0.5) !important;
+    color: pink !important;
+    border: none;
+}
+#message {
+    background-color:rgba(0,0,0,0.5) !important;
+    color: pink !important;
+    border: none;
+}
+.post .post_head {
+    border: none;
+}
+.post .post_head span.post_date {
+    color: pink;
+}
+.tfoot strong {
+    color: pink !important;
+}
+.clear .tfoot a {
+    color: pink;
+}
+blockquote {
+    background-color:rgba(0,0,0,0.7) !important;
+    color: pink !important;
+    border: 1px solid #000;
+}
+blockquote cite {
+    border-color: pink;
+}
+blockquote cite span {
+    color: pink;
+}
+.trow_sep {
+    color: pink !important;
+}
+.wrap {
+    background-color:rgba(0,0,0,0.5) !important;
+    color: pink !important;
+    border: 1px solid #000;
+    border-radius: none !important; 
+}
+.sectiondiv {
+    background-color:rgba(0,0,0,0.3) !important;
+    color: pink !important;
+    border: none;
+    border-radius: none !important; 
+}
+.sectiondiv > strong {
+    color: pink;
+}
+.sectiondiv > a {
+    color: rgb(219,66,219) !important;
+    text-decoration: underline;
+}
+.hr {
+    color: pink !important;
+    background-color: pink;
+}
+.infoHolder {
+    background-color:rgba(0,0,0,0.4) !important;
+    color: pink !important;
+    border: none;
+    border-radius: none !important; 
+}
+.tooltip a {
+    color: rgb(219,66,219) !important;
+}
+.moreinfo {
+    background-color:rgba(0,0,0,0) !important;
+    color: pink !important;
+    border-top: 1px solid pink;
+    border-radius: none !important; 
+}
+span > a {
+    color: rgb(219,66,219) !important;
+}
+.footer {
+    background-color:rgba(0,0,0,0.4) !important;
+    color: pink !important;
+    border: 1px solid pink;
+    border-bottom: none;
+}
+.footer a {
+    color: pink;
+}
+.wrap > span {
+    color: pink !important;
+}
+blockquote > a {
+    color: rgb(219,66,219) !important;
+    text-decoration: underline !important;
+}
+.float_right a strong {
+    color: pink;
+}
+.select2-default {
+    background-color:rgba(255,255,255,1) !important;
+    color: green !important;
+    border: 1px solid green;
+    filter: invert(1);
+}
+.select2-drop-active {
+    background-color:rgba(255,255,255,1) !important;
+    color: green !important;
+    border: 1px solid green;
+    filter: invert(1);
+}
+#content .trow1 > a {
+    color: pink;
+    text-decoration: underline;
+}
+.tfixed a {
+    color: pink;
+    text-decoration: underline;
+}
+.profile_header {
+    background-color:rgba(0,0,0,0.4) !important;
+    color: pink !important;
+    border: none;
+}
+.profile_header .smalltext {
+    color: pink;
+}
+.offline {
+    color: red !important;
+}
+.navigation {
+    border: none !important;
+}
+.top_links {
+    border: none !important;
+}
+#bridge .wrap {
+    border: none !important;
+}
+.no_bottom_border option {
+    filter: invert(1);
+}
+option {
+    filter: invert(1);
+}
+.discordPanel {
+    background-color: rgba(0,0,0,0.4);
+    border: none;
+}
+.profileDetails_full span {
+    color: pink !important;
+}
+h3 {
+    color: pink !important;
+}
+.profileDetails_full {
+    color: pink;
+}
+#content strong {
+    color: pink;
+}
+td > div > span {
+    color: pink;
+}
+.tborder li {
+    color: pink;
+}
+.usercp_notepad {
+    background-color: rgba(0,0,0,0.4);
+    border: none;
+    color: pink;
+}
+.inline_row a {
+    text-decoration: none !important;
+}
+.smalltext span strong {
+    color: inherit !important;
+}
+.current .thead {
+    background-color:rgba(0,0,0,0.4) !important;
+    color: pink !important;
+}
+.current .tborder {
+    background-color:rgba(0,0,0,1) !important;
+    color: pink !important;
+    border: 1px solid pink;
+}
+span > a {
+    text-decoration: none !important;
+}
+a {
+    text-decoration: none !important;
+}
+div.sceditor-toolbar, div.sceditor-toolbar, .sceditor-container
+  {
+    background: rgba(0,0,0,0.6) !important;
+    border: none !important;
+    outline: none !important;
+    border-radius: 0 !important;
+  }
+/* Container */
+  .sceditor-container iframe, .sceditor-container textarea
+  {
+    background-color:rgba(217,214,214,0.5) !important;
+    padding-left: 10px !important;
+    width: 100% !important;
+    border-top: solid thin var(--th_color) !important;
+    padding: 5px 0 !important;
+  }
+.alert_new, .alert_count {
+    background-color:rgba(0,0,0,0.5) !important;
+    border: 1px solid pink;
+    color: pink !important;
+}
+
+
+/* ------ buttons ------ */
+
+.button, #updatebutton, .launchBTN, .add_buddy_button, .add_ignore_button, .buttons, #quick_reply_submit, .new_thread_button, .pagination_next, .pagination a, input.button, .align_right .new_reply_button, .closed_button, .postbit_edit, .postbit_buttons > a, .float_right .new_reply_button {
+    background-color: rgba(105,23,105, 0.6) !important;
+    border-color: rgba(105,23,105,0.9) !important;
+    transition: 0.5s;
+    color: pink !important;
+}
+.button:hover, #updatebutton.launchBTN:hover, .add_buddy_button:hover, .add_ignore_button:hover, .buttons:hover, #quick_reply_submit:hover, .new_thread_button:hover, .pagination_next:hover, .pagination a:hover, input.button:hover, .align_right .new_reply_button:hover, .closed_button:hover, .postbit_edit:hover, .postbit_buttons > a:hover, .float_right .new_reply_button:hover {
+    background-color: rgb(202,63,202) !important;
+    border-color: rgb(202,63,202) !important;
+    border-radius: 0px;
+    transition: 0.5s;
+    color: black !important;
+}
+#go_page_1 img {
+    filter: grayscale(1);
+}
+.inline_row a {
+    color: pink !important;
+}
+div[id*="like_buttons"]
+  {
+    display: inline;
+    padding: 3px 10px;
+    opacity: .3;
+    cursor: pointer;
+  }
+
+
+/* ------ No Ads ------ */
+
+div[onclick*="Advert"]
+  {
+    display: none;
+  }
+
+}
