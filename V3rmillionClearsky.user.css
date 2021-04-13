@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           V3rmillion Clearsky
 @namespace      https://github.com/Psykek66/UserCSS/blob/master/V3rmillionClearsky.user.css
-@version        1.0.2
+@version        1.0.1
 @description    There's a sky and clear things. Not much to say
 @author         Psykek   |   Psykek#3699
 ==/UserStyle== */
@@ -11,17 +11,16 @@
 
 1.0.1
 - Added styling for codeblocks
-
-1.0.2
 - Added styling for message notification and banner alert
 - Fixed styling interfering with some name colors
 - Added styling to fieldset
+- Various small styling fixes
 
 */
 
 @-moz-document url-prefix("https://v3rmillion.net/") {
     /* ------ Header ------ */
-    
+
 #header {
     background-color: #000;
     background-image: url("");
@@ -108,6 +107,9 @@ body {
 
 /* ------ Main ------ */
 
+td > div > span {
+    color: pink !important;
+}
 .forum_off {
     color: pink;
 }
@@ -364,6 +366,7 @@ b a {
     padding-top: 5px;
     padding-bottom: 6px;
 }
+
 .trow2, .trow1 {
     background-color: rgba(0,0,0,0.3);
     border: none;
@@ -811,6 +814,12 @@ fieldset {
     border: 1px solid pink;
     color: pink !important;
 }
+.repbox {
+    background-color:rgba(0,0,0,0.5) !important;
+    border: 1px solid pink;
+    color: pink !important;
+}
+
 
 /* ------ buttons ------ */
 
@@ -847,5 +856,5 @@ div[id*="like_buttons"]
 div[onclick*="Advert"]
   {
     display: none;
-  } 
+  }
 }
