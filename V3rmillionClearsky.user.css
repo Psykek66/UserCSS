@@ -6,7 +6,7 @@
 @author         Psykek   |   Psykek#3699
 ==/UserStyle== */
 
-@-moz-document domain("https://v3rmillion.net/") {
+@-moz-document url-prefix("https://v3rmillion.net/") {
     /* ------ Header ------ */
 
 #header {
