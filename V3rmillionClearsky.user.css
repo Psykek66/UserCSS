@@ -760,7 +760,13 @@ div.sceditor-toolbar, div.sceditor-toolbar, .sceditor-container
     border: 1px solid pink;
     color: pink !important;
 }
-
+.codeblock {
+    background-color:rgba(0,0,0,0.5);
+    color: pink;
+}
+.codeblock .title {
+    border-bottom-color: pink;
+}
 
 /* ------ buttons ------ */
 
