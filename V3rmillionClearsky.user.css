@@ -15,6 +15,7 @@
 - Fixed styling interfering with some name colors
 - Added styling to fieldset
 - Various small styling fixes
+- Added styling for polls
 
 */
 
@@ -818,6 +819,12 @@ fieldset {
     background-color:rgba(0,0,0,0.5) !important;
     border: 1px solid pink;
     color: pink !important;
+}
+.progress {
+    background-color: pink;
+}
+.progress_bar {
+    border-color: pink;
 }
 
 
