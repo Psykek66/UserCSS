@@ -1,0 +1,613 @@
+/* ==UserStyle==
+@name           Clearsky Revamped
+@namespace      https://github.com/Psykek66/UserCSS/blob/master/V3rmillionClearskyRevamped.user.css
+@author         Psykek
+@description    Clearsky but revamped - made the code 10x better and made it more customizable. I kinda gave up halfway through so it's not great but it's something.
+@version        1.0.0
+@license        I don't care do what you want, just don't sell it or I will find you and uh, idk make a CW or something
+@advanced color DA_COLOR "Dark Accent color" #000
+@advanced color LT_COLOR "Light Text Color" rgb(255,145,196)
+@advanced color MA_COLOR "Main Accent Color" rgb(255,0,156)
+@advanced color LLT_COLOR "Oh god I didn't know I needed lighter text (Lightest Light Text Color)" rgb(246,222,222)
+@advanced color IV_COLOR "Inverted Color - applies to things like select where normal background colors don't work" #fff
+@advanced color IVT_COLOR "Inverted Text Color" #006e3b
+@advanced color PR_COLOR "Positive Rep Color" #5ba8ff
+@advanced color NR_COLOR "Negative Rep Color" #ff5b5b
+
+==/UserStyle== */
+/* To invert colors use: https://pinetools.com/invert-color */
+@-moz-document domain("v3rmillion.net") {
+    /*=========== DEFENITIONS ===========*/
+    :root {
+        --da_color: /*[[DA_COLOR]]*/;
+        --lt_color: /*[[LT_COLOR]]*/;
+        --ma_color: /*[[MA_COLOR]]*/;
+        --llt_color: /*[[LLT_COLOR]]*/;
+        --iv_color: /*[[IV_COLOR]]*/;
+        --ivt_color: /*[[IVT_COLOR]]*/;
+        --pr_color: /*[[PR_COLOR]]*/;
+        --nr_color: /*[[NR_COLOR]]*/;
+        --bg_image: url(https://i.imgur.com/SbN5FCP.png);
+    }
+    /*=========== CONTROVERSIAL CHANGES ===========*/
+        /* ==== AUTHOR AWARDS ==== */
+            .author_statistics img {
+                display: none;
+            }
+        /* ==== ADS ==== */
+            div[onclick*="Advert"] {
+                display: none;
+            }
+        /* ==== LIKE BUTTONS ==== */
+            div[id*="like_buttons"]{
+                display: inline;
+                padding: 3px 10px;
+                cursor: pointer;
+                filter: brightness(0.3);
+                opacity: 0.5;
+            }
+        /* ==== SIGNITURE ==== */
+            .signature {
+                display: none;
+            }
+    /*=========== WEBSITE STUFF =========*/
+        /* ==== HEADER ==== */
+            /* BACKGROUND */
+                #header {
+                    background: var(--da_color);
+                    display: none;
+                }
+            /* LOGO */
+                #logo img {
+                    filter: invert(1) hue-rotate(140deg); /* makes logo pink */
+                }
+        /* ==== NAV BAR ==== */
+            /* BACKGROUND */
+                #bridge {
+                    background: var(--da_color);
+                    border-bottom: 5px solid var(--ma_color);
+                    position: fixed; /* keeps nav bar on top of page */
+                    width: 100%;
+                    z-index: 100000; /* keeps nav bar in front of every other element */
+                    top: 0;
+                }
+            /* TEXT & ICONS */
+                ul.menu li a, ul.panel_links li a, .ddm_anchor a { 
+                     color: var(--lt_color);
+                }
+            /* TABS */
+                ul.menu li a:hover, ul.panel_links li a:hover, .ddm_anchor a:hover {
+                     background-color: var(--ma_color); 
+                     color: var(--da_color);
+                }
+                ul.menu li a.active{
+                    background-color: var(--ma_color);
+                    color: var(--da_color);
+                }
+            /* DROPDOWN */
+                ul.menu li ul, .ddm a, .panel_buttons {
+                    background-color: var(--da_color) !important;
+                    border-color: var(--ma_color);
+                }
+                .ddm a:hover {
+                    background-color: var(--ma_color) !important;
+                    color: var(--da_color) !important;
+                }
+        /* ==== BACKGROUND ==== */
+                #wrapper, body {
+                    background: var(--bg_image);
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    background-position: center center; 
+                    padding-top: 80px;
+                }
+        /* ==== MAIN BODY STUFF ==== */
+            /* NAVIGATION */
+                .navigation {
+                    background-color: rgba(0,0,0,0.6);
+                    border: none;
+                    color: var(--lt_color) !important;
+                }
+                .navigation .active, .navigation a, #down_alert span, .pages {
+                    color: var(--lt_color);
+                } 
+            /* CONTENT BACKGROUND */
+                #content {
+                    background-color: rgba(0,0,0,0.6);
+                    border: none;
+                }
+            /* CONTENT USERS BROWSING */
+                #content > div > .smalltext {
+                    color: var(--llt_color);
+                }
+            /* CONTENT CATEGORY HEADERS */
+                #content .thead {
+                    border-radius: 0px;
+                    background-color: rgba(0,0,0,0.6);
+                }
+                #content .tborder {
+                    background-color: rgba(0,0,0,0);
+                }
+                .thead a, #content .thead strong {
+                    color: var(--lt_color) !important;
+                }
+            /* TCAT - TABLE CATEGORIES */
+                .tcat {
+                    background-color: rgba(0,0,0,0.5);
+                    color: var(--llt_color);
+                }
+                .tcat a {
+                    color: var(--llt_color) !important;
+                }
+                .tcat strong {
+                    color: var(--lt_color);
+                }
+                .tcat strong > a {
+                    color: var(--lt_color) !important;
+                }
+                .clear .tcat .smalltext .smalltext a {
+                    color: var(--lt_color) !important;
+                }
+            /* TROW - TABLE ROWS */
+                .trow2, .trow1 {
+                    background-color: rgba(0,0,0,0.3);
+                    border: none;
+                    color: var(--llt_color);
+                }
+                .trow2 strong a, .trow1 strong a, .trow2 .smalltext strong, .trow1 .smalltext strong, .trow1 span.smalltext a, .trow2 span.smalltext a {
+                    color: var(--lt_color);
+                }
+                .trow2 strong a:hover, .trow1 strong a:hover {
+                    text-decoration: underline;
+                }
+                .trow1 span.smalltext, .trow2 span.smalltext {
+                    color: var(--llt_color);
+                }
+            /* TROW SEPARATORS */
+                .trow_sep {
+                    background-color: rgba(0,0,0,0.4);
+                    border: none;
+                    color: var(--llt_color);
+                }
+            /* TROW ON/OFF MARKERS */
+                .forum_on {
+                    color: var(--ma_color);
+                }
+                .forum_off {
+                    color: var(--lt_color);
+                }
+            /* SUB CONTROL */
+                .sub_control {
+                    background-color: rgba(0,0,0,0.6);
+                    border: 1px solid var(--lt_color);
+                    transition: .4s;
+                }
+                .sub_control:hover {
+                    background-color: rgba(0,0,0,0.6);
+                    border: 1px solid var(--llt_color);
+                    border-radius: 50px;
+                    transition: .7s; 
+                }
+                .sub_control a, .scaleimages .smalltext {
+                    color: var(--lt_color);
+                }
+                .sub_control a:hover {
+                    color: var(--llt_color);
+                }
+            /* TROW TEXT COLORS */
+                .trow2.forumdisplay_sticky span .smalltext, .trow1.forumdisplay_sticky span .smalltext, .trow1.forumdisplay_sticky div > span, .trow2.forumdisplay_sticky div > span, .trow1.forumdisplay_sticky span .smalltext a, .trow2.forumdisplay_sticky span .smalltext a {
+                    color: var(--llt_color) !important;
+                }
+            /* UNREAD THREADS */
+                .trow1 .subject_new a, .trow2 .subject_new a, .inline_row a {
+                    color: var(--lt_color) !important;
+                }
+            /* READ THREADS */
+                .trow1 .subject_old a, .trow2 .subject_old a {
+                    color: var(--lt_color);
+                }
+            /* AUTHOR OF THREAD */
+                .trow1.forumdisplay_regular .author a, .trow2.forumdisplay_regular .author a, .trow1.forumdisplay_sticky .author a, .trow2.forumdisplay_sticky .author a {
+                    color: var(--lt_color);
+                }
+            /* NUMBER OF REPLIES ON THREAD */
+                .trow1.forumdisplay_sticky > a, .trow2.forumdisplay_sticky > a, .trow1.forumdisplay_regular > a, .trow2.forumdisplay_regular > a {
+                    color: var(--lt_color);
+                }
+            /* BOARD STATS */
+                #boardstats_e .trow1 strong {
+                    color: inherit;
+                }
+                #boardstats_e .trow1 .smalltext span span {
+                    color: var(--llt_color);
+                }
+                b a {
+                    color: var(--llt_color) !important;
+                }
+        /* ==== FOOTER ==== */
+            /* PAGE FOOTER */
+                #footer {
+                    background-color: rgba(0,0,0,0.6);
+                    border-top-color: var(--ma_color);
+                }
+                .bottommenu {
+                    background-color: rgba(0,0,0,0.6) !important;
+                    color: var(--lt_color);
+                }
+                .bottommenu a, #about {
+                    color: var(--lt_color);
+                }
+                .cRem a, .cRem a:visited {
+                    color: var(--llt_color) !important;
+                    text-decoration: underline;
+                }
+                #copyright {
+                    color: var(--lt_color);
+                }
+            /* TABLE FOOTER */
+                .tfoot {
+                    border-radius: 0px;
+                    background-color: rgba(0,0,0,0.6);
+                    color: var(--lt_color);
+                }
+                .tfoot .smalltext a {
+                    color: var(--lt_color);    
+                }
+            /* LEGEND */
+                dd {
+                    color: var(--lt_color);
+                }
+            /* FORUM SEARCH TEXT */
+                .float_right form strong {
+                    color: var(--lt_color);
+                }
+        /* ==== BUTTONS ==== */
+                .pagination_page, .float_right input.button, .pagination_next, .pagination a, .new_thread_button, input.button, .align_right .new_reply_button, .postlink, .postbit_buttons > a, .float_right .new_reply_button, .buttons, a.button, #checkUser {
+                    background-color: var(--da_color) !important;
+                    border: 1px solid var(--lt_color) !important;
+                    color: var(--lt_color);
+                    border-radius: 5px;
+                    transition: 0.4s;
+                }
+                .pagination_page:hover, .float_right input.button:hover, .pagination_next:hover, .pagination a:hover, .new_thread_button:hover, input.button:hover, .align_right .new_reply_button:hover, .postlink:hover, .postbit_buttons > a:hover, .float_right .new_reply_button:hover, .buttons:hover, a.button:hover, #checkUser:hover {
+                    background-color: var(--da_color) !important;
+                    border: 1px solid var(--llt_color) !important;
+                    color: var(--llt_color);
+                    border-radius: 100px;
+                    transition: 0.7s;
+                }
+                .pagination_current {
+                    background-color: #000 !important;
+                    border: 1px solid var(--llt_color) !important;
+                    color: var(--llt_color) !important;
+                    border-radius: 100px;
+                }
+                .postbit_buttons a span {
+                    color: var(--lt_color);
+                    transition: 0.4s;
+                }
+                .postlink {
+                    color: var(--lt_color) !important;
+                }
+                .postbit_buttons a span:hover {
+                    color: var(--llt_color);
+                    transition: 0.7s;
+                }
+            /* INNER TEXT */
+                .button span {
+                    color: var(--lt_color);
+                    transition: 0.4s;
+                }
+                .button span:hover {
+                    color: var(--llt_color);
+                    transition: 0.7s;
+                }
+        /* ==== TEXBOXES ==== */
+            /* SEARCH FORUM TEXTBOX (bottom right) */
+                .float_right .textbox, input.textbox {
+                    background-color: var(--da_color) !important;
+                    color: var(--lt_color) !important;
+                    border: 1px solid var(--lt_color);
+                    box-shadow:  none !important;
+                }
+                .float_right .textbox:focus {
+                    box-shadow: 0 0 4px var(--lt_color) !important;
+                    border: none;
+                }
+            /* SEARCH FOR A USER */
+                .select2-default {
+                    background-color: var(--iv_color) !important;
+                    color: var(--ivt_color) !important;
+                    border: 1px solid var(--ivt_color);
+                    filter: invert(1);
+                    box-shadow: none !important;
+                }
+                .select2-drop-active {
+                    background-color: var(--iv_color) !important;
+                    color: var(--ivt_color) !important;
+                    border: 1px solid var(--ivt_color) !important;
+                    filter: invert(1);
+                }
+                .textbox {
+                    border: 1px solid var(--lt_color) !important;
+                }
+        /* ==== SELECT ==== */
+                select {
+                    background-color: var(--iv_color) !important;
+                    color: var(--ivt_color) !important;
+                    border: 1px solid var(--ivt_color);
+                    filter: invert(1);
+                }
+                select option {
+                    background-color: var(--da_color) !important;
+                    color: var(--lt_color) !important;
+                    filter: invert(1);
+                }
+                
+        /* ==== INSIDE THE THREAD ==== */
+            /* THREAD HEAD */
+                .thread_head {
+                    background-color: rgba(0,0,0,0.4);
+                    color: var(--lt_color) !important;
+                    border-color: var(--ma_color);
+                }
+                .post .post_head span.edited_post, .post .post_head span.edited_post a {
+                    color: var(--llt_color);
+                }
+                .thread_title {
+                    color: var(--lt_color);
+                }
+                .post .post_head {
+                    border: none;
+                    color: var(--lt_color) !important;
+                }
+                .post .post_head span.post_date, .tfixed .thead {
+                    color: var(--lt_color);
+                }
+            /* POST AUTHOR */
+                .post .post_author {
+                    border: none;
+                    background-color: rgba(0,0,0,0.4);
+                    color: var(--lt_color) !important;
+                }
+                .post .post_author div.author_avatar img {
+                    border: none;
+                    background-color: rgba(0,0,0,0.4);
+                }
+                .post .post_author div.author_statistics {
+                    background-color:rgba(0,0,0,0.3) !important;
+                    color: var(--llt_color) !important;
+                    border: 1px solid #000;
+                }
+                .author_information .smalltext {
+                    color: var(--llt_color);
+                }
+            /* POST BODY */
+                .post_body {
+                    color: var(--llt_color);
+                }
+                .post_body > span {
+                    color: var(--llt_color) !important; 
+                }
+            /* SIGNITURE */
+                .signature {
+                    border: 1px solid var(--lt_color) !important;
+                    color: var(--llt_color);
+                    padding: 10px !important;
+                }
+            /* CONTROLS */
+                .post_controls {
+                    background-color: rgba(0,0,0,0.6);
+                    border: none;
+                }
+                .clear .tfoot a {
+                    color: var(--lt_color);
+                }
+            /* QUOTE */
+                blockquote, .hiddenQuote {
+                    background-color: rgba(0,0,0,0.5);
+                    border: none;
+                    color: var(--llt_color);
+                }
+                blockquote cite {
+                    border-color: var(--lt_color);
+                }
+                blockquote cite span {
+                    color: var(--llt_color);
+                }
+                .hiddenQuote {
+                    background: rgba(0,0,0,0.6) !important;
+                }
+            /* QUICK REPLY */
+                #message {
+                    background-color: rgba(0,0,0,0.5);
+                    border: 1px solid var(--lt_color);
+                    color: var(--lt_color);
+                    box-shadow: none;
+                }
+                #quickreply_e .trow2 {
+                    color: var(--llt_color);
+                }
+            /* GIVEAWAY */
+                .tfixed .trow1 strong, .tfixed .trow2 strong {
+                    color: var(--lt_color);
+                }
+        /* ==== PROFILE ==== */
+                .profile_header {
+                    background-color: rgba(0,0,0,0.4);
+                    border: none;
+                    border-radius: 0px !important;
+                    color: var(--llt_color);
+                }
+                .profile_header td > .smalltext {
+                    color: var(--llt_color);
+                }
+            /* ALTS */
+                .likely, .possible {
+                    background-color: rgba(0,0,0,0.6);
+                    color: var(--lt_color);
+                }
+                #content td {
+                    color: var(--llt_color);
+                }         
+            /* REP */
+                .reputation_positive {
+                    color: var(--pr_color) !important;
+                }
+                .reputation_negative {
+                    color: var(--nr_color) !important; 
+                }
+                .repbox {
+                    background-color: var(--da_color);
+                    border: 1px solid var(--lt_color);
+                    color: var(--lt_color);
+                }
+                .trow_reputation_negative div > span, .trow_reputation_neutral div > span, .trow_reputation_positive div > span {
+                    color: var(--llt_color) !important;
+                }
+        /* ==== RULES ==== */
+                .wrap {
+                    background-color: rgba(0,0,0,0.5);
+                    border: none;
+                }
+                .sectiondiv {
+                    background-color: rgba(0,0,0,0.5);
+                    border: none;
+                    color: var(--llt_color);
+                }
+                .sectiondiv > strong {
+                    color: var(--lt_color);
+                }
+                .sectiondiv > a {
+                    color: var(--lt_color);
+                }
+                .infoHolder {
+                    background-color: rgba(0,0,0,0.5) !important;
+                    color: var(--llt_color);
+                }
+                .tooltip a {
+                    color: var(--lt_color);
+                }
+                .moreinfo {
+                    background-color: rgba(0,0,0,0) !important;
+                    color: var(--llt_color);
+                }
+                .moreinfo a {
+                    color: var(--lt_color);
+                }
+                .wrap a {
+                    color: var(--lt_color);
+                }
+                .footer {
+                    background-color: rgba(0,0,0,0.5);
+                    color: var(--lt_color);
+                }
+                .logo {
+                    display: none;
+                }
+                .wrap .hr {
+                    display: none;
+                }
+                .wrap h1 {
+                    color: var(--lt_color);
+                }
+            /* ==== UPGRADE ==== */
+                #content .tborder {
+                    background: rgba(0,0,0,0) !important;
+                }
+                .tborder table {
+                    background: var(--da_color);
+                }
+                .dividedFeature {
+                    border-color: var(--llt_color);
+                }
+                h3 {
+                    color: var(--lt_color) !important;
+                }
+            /* ==== NOTEPAD ==== */
+                .usercp_notepad {
+                    background-color: var(--da_color);
+                    color: var(--lt_color);
+                    border: 1px solid var(--lt_color);
+                    box-shadow: none !important;
+                }
+            /* ==== INBOX ==== */
+                .pmspace_unused {
+                    background-color: var(--da_color);
+                    border: none !important;
+                }
+                .pmspace_container {
+                    border: none !important;
+                    color: var(--lt_color);
+                    background-color: var(--da_color);
+                }
+                .pmspace_used {
+                    border: none !important;
+                    background-color: var(--lt_color) !important;
+                }
+            /* ==== PANEL ==== */
+                .trow1 .subject_old, .trow2 .subject_old, #content .trow1 > a, #content .trow2 > a {
+                    color: var(--lt_color);
+                }
+                .usercp_nav_item {
+                    color: var(--llt_color) !important;
+                }
+            /* ==== EDITOR ==== */
+                div.sceditor-toolbar, div.sceditor-toolbar, .sceditor-container {
+                    background: rgba(0,0,0,0.6) !important;
+                    border: none !important;
+                    outline: none !important;
+                    border-radius: 0 !important;
+                }
+                .sceditor-container iframe, .sceditor-container textarea {
+                    background-color:rgba(217,214,214,0.5) !important;
+                    width: 100% !important;
+                    border-top: solid thin var(--th_color) !important;
+                    padding: 5px 0 !important;
+                }
+            /* ==== ALERTS ==== */
+                .alert_new, .alert_count {
+                    background-color:rgba(0,0,0,0.5) !important;
+                    border: 1px solid var(--llt_color);
+                    color: var(--llt_color) !important;
+                }
+                .pm_alert {
+                    background-color:rgba(0,0,0,0.5) !important;
+                    border: 1px solid var(--llt_color);
+                    color: var(--llt_color) !important;
+                }
+                .pm_alert a {
+                    color: var(--lt_color) !important;
+                }
+                .pm_new, .pm_count {
+                    background-color:rgba(0,0,0,0.5) !important;
+                    border: 1px solid var(--llt_color);
+                    color: var(--llt_color) !important;
+                }
+                .modal .thead {
+                    background: var(--da_color);
+                    color: var(--lt_color);
+                }
+
+            /* ==== BODY ELEMENTS ==== */
+                .codeblock {
+                    background-color:rgba(0,0,0,0.5);
+                    color: var(--llt_color);
+                }
+                .codeblock .title {
+                    border-bottom-color: var(--llt_color);
+                }
+                .spoiler_header {
+                    background: rgba(0,0,0,0.5);
+                    color: var(--lt_color);
+                    border: none !important;
+                }
+                .spoiler_body {
+                    border-color: var(--da_color);
+                    background: rgba(0,0,0,0.5);
+                    color: var(--llt_color);
+                }
+                .spoiler_body a {
+                    color: var(--lt_color);
+                }
+}
