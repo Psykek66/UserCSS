@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           VGYDark
-@version        1.0.0
+@version        1.0.1
 @description    Night mode for vgy.me
 @author         Psykek/PrototypeChicken
 @namespace      github.com/Psykek66/UserCSS
@@ -219,5 +219,19 @@ code {
 .tooltip-inner {
     color: #909090;
     background-color: #202020;
+}
+.swal2-show {
+    background-color: #000 !important;
+    -webkit-box-shadow: 0 0 5px #ff0000;
+    box-shadow: 0 0 5px #ff0000;
+}
+.swal2-content {
+    color: #ccc !important;
+}
+.swal2-title {
+    color: #ccc !important;
+}
+.swal2-confirm {
+    background-color: #202020 !important;
 }
 }
