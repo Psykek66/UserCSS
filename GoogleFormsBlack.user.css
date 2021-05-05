@@ -1,0 +1,317 @@
+/* ==UserStyle==
+@name           Google Forms Black
+@version        1.0.0
+@description    Black theme for Google Forms (when answering a form, not making one)
+@author         Psykek/PrototypeChicken
+@namespace      github.com/Psykek66/UserCSS
+@homepageURL    https://github.com/Psykek66/UserCSS/blob/master/GoogleFormsBlack.user.css
+@updateURL      https://raw.githubusercontent.com/Psykek66/UserCSS/master/GoogleFormsBlack.user.css
+==/UserStyle== */
+@-moz-document url-prefix("docs.google.com/forms") {
+    .freebirdFormviewerViewFormContentWrapper {
+        background: url("https://i.imgur.com/lxbUIuN.jpg");
+        background-color: #050505;
+    }
+    /* Color accent stripe */
+    .freebirdSolidBackground {
+        background: none;
+    }
+    /* Card */
+    .freebirdFormviewerViewItemsItemItem,
+    .freebirdFormviewerViewHeaderHeader,
+    .freebirdFormviewerComponentsQuestionBaseRoot {
+        background: rgb(0, 0, 0);
+        background: linear-gradient(141deg, rgba(0, 0, 0, 1) 0%, rgba(8, 8, 8, 1) 83%, rgba(0, 0, 0, 1) 100%);
+        color: #bbb !important;
+        border: 1px solid #000 !important;
+        box-shadow: 0 0 10px #121212;
+    }
+    .freebirdFormviewerViewNumberedItemContainer .m2 {
+        border-radius: 10px;
+    }
+    /* other */
+    a {
+        color: #fff !important;
+    }
+    .freebirdFormviewerComponentsQuestionRadioLabel,
+    .freebirdCustomFont,
+    .freebirdFormviewerViewHeaderTitle,
+    .freebirdFormviewerViewHeaderDisclosure,
+    .freebirdFormviewerViewHeaderDescription {
+        color: #bbb !important;
+    }
+    .exportOuterCircle {
+        border-color: #bbb;
+    }
+    .isChecked .exportOuterCircle {
+        border-color: #fff !important;
+    }
+    .isChecked .exportInnerCircle {
+        border-color: #fff !important;
+    }
+    .quantumWizTogglePapercheckboxEl {
+        background-color: #bbb !important;
+        border-color: #bbb !important;
+    }
+    .quantumWizTogglePapercheckboxInnerBox {
+        border-color: #000;
+    }
+    .isChecked .quantumWizTogglePapercheckboxCheckMarkContainer {
+        filter: invert(1);
+    }
+    .exportFocusUnderline {
+        background-color: #bbb !important;
+    }
+    .exportInput {
+        color: #bbb;
+    }
+    .exportContent {
+        color: #bbb;
+    }
+    .freebirdFormviewerComponentsQuestionTextTextInput .exportInput {
+        color: #bbb;
+    }
+    .exportTextarea {
+        color: #bbb !important;
+    }
+    .isUndragged .exportLabel {
+        color: #bbb;
+    }
+    .isUndragged path {
+        color: #bbb;
+    }
+    div.modal-dialog-bg {
+        filter: invert(1);
+    }
+    .picker-dialog {
+        filter: invert(1);
+    }
+    .freebirdMaterialWidgetsChipChipText {
+        color: #bbb;
+    }
+    .freebird-qp-icon-x-small {
+        filter: invert(1);
+    }
+    .freebirdMaterialWidgetsFilechipFileChipLink {
+        border: 1px solid #bbb;
+    }
+    .freebirdMaterialScalecontentLabel {
+        color: #bbb !important;
+    }
+    .freebirdMaterialScalecontentRangeLabel {
+        color: #bbb !important;
+    }
+    .freebirdFormviewerComponentsQuestionGridPinnedHeader .freebirdFormviewerComponentsQuestionGridColumnHeader .freebirdFormviewerComponentsQuestionGridRowHeader {
+        background-color: #000 !important;
+    }
+    .freebirdFormviewerComponentsQuestionGridScrollingData .freebirdFormviewerComponentsQuestionGridColumnHeader .freebirdFormviewerComponentsQuestionGridCell {
+        color: #bbb !important;
+    }
+    .exportGroupContent .freebirdFormviewerComponentsQuestionGridCell,
+    .freebirdFormviewerComponentsQuestionGridSpacerRow,
+    .freebirdFormviewerComponentsQuestionGridPinnedHeader .freebirdFormviewerComponentsQuestionGridRowHeader {
+        background-color: #000 !important;
+        color: #bbb;
+    }
+    .freebirdFormviewerComponentsQuestionGridScrollingData > :nth-child(2n),
+    .freebirdFormviewerComponentsQuestionGridPinnedHeader > :nth-child(2n) {
+        background-color: #000;
+    }
+    .exportLabel {
+        color: #bbb !important;
+    }
+    .quantumWizTextinputPaperinputUnderline {
+        background-color: #bbb;
+    }
+    .freebirdFormviewerComponentsQuestionDateSep {
+        color: #bbb !important;
+    }
+    .freebirdFormviewerComponentsQuestionDateDateSelectionInput .freebirdFormviewerComponentsQuestionTimeLabel {
+        color: #bbb;
+    }
+    .freebirdFormviewerComponentsQuestionTimeTimeInputs .freebirdFormviewerComponentsQuestionTimeLabel {
+        color: #bbb;
+    }
+    .hasValue .exportInput {
+        color: #bbb;
+    }
+    .exportInput {
+        caret-color: #bbb;
+    }
+    .freebirdFormviewerComponentsQuestionTimeSep {
+        color: #bbb !important;
+    }
+    .appsMaterialWizMenuPaperselectSelect .exportSelectPopup {
+        background-color: #000;
+    }
+    .appsMaterialWizMenuPaperselectPopup .isSelected {
+        background-color: #101010 !important;
+    }
+    .freebirdFormviewerComponentsQuestionDateDateInput .exportInput {
+        color: #bbb !important;
+    }
+    .freebirdFormviewerComponentsQuestionDateLabel {
+        color: #bbb !important;
+    }
+    .freebirdMaterialImageoptionImageWrapper {
+        background: #000;
+        box-shadow: 0 0 5px #121212;
+    }
+    .freebirdMaterialImageoptionEmptyImage {
+        background: #000;
+        box-shadow: 0 0 5px #121212;
+    }
+    .freebirdFormviewerViewCenteredContent {
+        color: #bbb !important;
+    }
+    .freebirdFormviewerViewNavigationPasswordWarning {
+        color: #bbb !important;
+    }
+    .freebirdDisclaimerColor {
+        color: #bbb;
+    }
+    .freebirdFormviewerViewFooterPageBreak {
+        filter: invert(.5) brightness(100);
+    }
+    .appsMaterialWizButtonPaperbuttonProtected.hasIcon {
+        background-color: #000;
+    }
+    .appsMaterialWizButtonPaperbuttonHairline {
+        background-color: #000;
+    }
+    .m2 .freebirdFormviewerViewNavigationNoSubmitButton {
+        background-color: #000;
+        color: #bbb !important;
+        box-shadow: 0 0 5px #121212;
+    }
+    .freebirdMaterialHeaderbannerPagebreakBanner {
+        background: #000;
+        border-bottom: 1px solid #121212;
+    }
+    .freebirdFormviewerViewResponseConfirmContentContainer,
+    .freebirdFormviewerViewItemsPagebreakWithBanner {
+        background: rgb(0, 0, 0);
+        background: linear-gradient(141deg, rgba(0, 0, 0, 1) 0%, rgba(8, 8, 8, 1) 83%, rgba(0, 0, 0, 1) 100%);
+        color: #bbb !important;
+        border: 1px solid #000 !important;
+        box-shadow: 0 0 10px #121212;
+    }
+    .m2 {
+        background: url("https://i.imgur.com/lxbUIuN.jpg");
+    }
+    .freebirdThemedFilledButtonM2 {
+        background-color: rgb(0, 0, 0);
+        color: #bbb !important;
+        box-shadow: 0 0 5px #121212;
+    }
+    .freebirdFormviewerViewResponseConfirmationMessage {
+        color: #bbb !important;
+    }
+    .freebirdThemedFilledButtonM2 .exportButtonNestedLink,
+    .freebirdThemedFilledButtonM2 .exportButtonNestedLink:hover,
+    .freebirdThemedFilledButtonM2 .exportButtonNestedLink:link,
+    .freebirdThemedFilledButtonM2 .exportButtonNestedLink:visited {
+        background-color: rgb(0, 0, 0);
+    }
+    .freebird-qp-icon-help-b {
+        filter: invert(1);
+    }
+    .freebirdFormviewerViewItemsCheckboxCorrect,
+    .freebirdFormviewerViewItemsRadioCorrect {
+        background-color: #202020 !important;
+    }
+    .freebirdFormviewerViewItemsItemHasScoreTab .freebirdFormviewerViewItemsItemGradingFeedbackBox {
+        background-color: #202020;
+    }
+    .freebirdFormviewerViewItemsItemGradingFeedbackBox {
+        background-color: #202020;
+    }
+    .freebirdFormviewerViewItemsTextIncorrect {
+        background: rgba(32, 32, 32, 1) !important;
+    }
+    .freebirdFormviewerViewItemsTextShortText {
+        color: #bbb !important;
+    }
+    .freebirdFormviewerViewItemsTextShortText {
+        border-bottom-color: #bbb !important;
+    }
+    .freebirdFormviewerViewItemsTextCorrectAnswer {
+        color: #bbb !important;
+    }
+    .freebirdFormviewerViewItemsItemGradingCorrectAnswerBoxHeading {
+        color: #bbb !important;
+    }
+    .freebirdFormviewerViewItemsSelectLabel {
+        color: #bbb;
+    }
+    .freebirdFormviewerViewItemsTextLongText {
+        color: #bbb !important;
+    }
+    .freebirdFormviewerViewItemsGridInnerContainer .freebirdFormviewerViewItemsGridPinnedHeader .freebirdFormviewerViewItemsGridColumnHeader .freebirdFormviewerViewItemsGridRowHeader {
+        background: #000 !important;
+    }
+    .freebirdFormviewerViewItemsGridInnerContainer .freebirdFormviewerViewItemsGridScrollingData .freebirdFormviewerViewItemsGridSpacerRow {
+        background: #000 !important;
+        border: none !important;
+    }
+    .freebirdFormviewerViewItemsGridRow.freebirdFormviewerViewItemsGridIncorrect .freebirdFormviewerViewItemsGridRowHeader {
+        background: #000;
+        color: #bbb;
+    }
+    .freebirdFormviewerViewItemsGridIncorrect {
+        background-color: #000;
+        color: #bbb !important;
+    }
+    .freebirdFormviewerViewItemsGridSpacerRow {
+        background-color: rgba(0, 0, 0, 0) !important;
+    }
+    .freebirdFormviewerViewItemsGridInnerContainer .freebirdFormviewerViewItemsGridScrollingData .freebirdFormviewerViewItemsGridColumnHeader .freebirdFormviewerViewItemsGridCell {
+        color: #bbb;
+    }
+    .freebirdFormviewerViewItemsItemItem div .freebirdFormviewerViewItemsGridContainer .freebirdFormviewerViewItemsGridPinnedHeader .freebirdFormviewerViewItemsGridColumnHeader .freebirdFormviewerViewItemsGridRowHeader {
+        background-color: rgba(0, 0, 0, 0);
+    }
+    .freebirdFormviewerViewItemsItemItem div .freebirdFormviewerViewItemsGridContainer .freebirdFormviewerViewItemsGridScrollingData .freebirdFormviewerViewItemsGridColumnHeader .freebirdFormviewerViewItemsGridCell {
+        color: #bbb;
+    }
+    .freebirdFormviewerViewItemsItemItem div .freebirdFormviewerViewItemsGridContainer .freebirdFormviewerViewItemsGridPinnedHeader .freebirdFormviewerViewItemsGridUngraded .freebirdFormviewerViewItemsGridRowHeader {
+        background-color: #000 !important;
+        color: #bbb;
+    }
+    .freebirdFormviewerViewItemsGridScrollingData .freebirdFormviewerViewItemsGridRow.freebirdFormviewerViewItemsGridUngraded .freebirdFormviewerViewItemsGridCell {
+        background-color: #000;
+    }
+    .m2 .freebirdFormviewerViewItemsGridPinnedHeader .freebirdFormviewerViewItemsGridUngraded .freebirdFormviewerViewItemsGridCell:first-child,
+    .m2 .freebirdFormviewerViewItemsGridScrollingData .freebirdFormviewerViewItemsGridUngraded,
+    .m2 .freebirdFormviewerViewItemsGridScrollingData .freebirdFormviewerViewItemsGridUngraded:nth-child(2n + 1),
+    .m2 .freebirdFormviewerViewItemsGridPinnedHeader .freebirdFormviewerViewItemsGridUngraded:nth-child(2n + 1) .freebirdFormviewerViewItemsGridCell:first-child,
+    .m2 .freebirdFormviewerViewItemsGridScrollingData .freebirdFormviewerViewItemsGridUngraded:nth-child(2n),
+    .m2 .freebirdFormviewerViewItemsGridPinnedHeader .freebirdFormviewerViewItemsGridUngraded:nth-child(2n) .freebirdFormviewerViewItemsGridCell:first-child {
+        background-color: #000;
+    }
+    .freebirdFormviewerViewItemsGridInnerContainer .freebirdFormviewerViewItemsGridRow.freebirdFormviewerViewItemsGridUngraded .freebirdFormviewerViewItemsGridRowHeader {
+        color: #bbb;
+    }
+    .freebirdFormviewerViewItemsDateSep {
+        color: #bbb !important;
+    }
+    .freebirdFormviewerViewItemsDateDateSelectionInput .freebirdFormviewerViewItemsTimeLabel {
+        color: #bbb;
+    }
+    .freebirdFormviewerViewItemsTimeTimeInputs .freebirdFormviewerViewItemsTimeLabel {
+        color: #bbb;
+    }
+    .freebirdFormviewerViewItemsTimeSep {
+        color: #bbb !important;
+    }
+    .freebirdFormviewerViewItemsSectionheaderDescriptionText {
+        color: #bbb !important;
+    }
+    .freebirdFormviewerComponentsQuestionRadioOtherInputElement .exportUnderline {
+        border-color: #bbb !important;
+        background-color: #bbb !important;
+    }
+    .freebirdFormviewerViewItemsTextCorrect {
+        background-color: #202020 !important;
+    }
+}
