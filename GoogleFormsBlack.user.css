@@ -7,7 +7,7 @@
 @homepageURL    https://github.com/Psykek66/UserCSS/blob/master/GoogleFormsBlack.user.css
 @updateURL      https://raw.githubusercontent.com/Psykek66/UserCSS/master/GoogleFormsBlack.user.css
 ==/UserStyle== */
-@-moz-document url-prefix("docs.google.com/forms") {
+@-moz-document domain("docs.google.com") {
     .freebirdFormviewerViewFormContentWrapper {
         background: url("https://i.imgur.com/lxbUIuN.jpg");
         background-color: #050505;
