@@ -13,10 +13,28 @@
 with "background-color: #101010;" for both .container-fluid and html. */
 
 @-moz-document url-prefix("https://skribbl.io/") {
+    
+.in .modal-header {
+    background-color: #000;
+    color: #bbb;
+    border: none;
+}
+.in .modal-footer {
+    background-color: #101010;
+    border: none;
+}
+.in .btn-block {
+    background-color: #202020;
+    border: none;
+    color: #bbb;
+}
+.loginPanelContent {
+    background-color: #000;
+}
 .container-fluid {
     background-image: url("https://i.vgy.me/pu3Ey6.jpg");
 }
-html {
+body {
     background-image: url("https://i.vgy.me/pu3Ey6.jpg");
 }
 .col-xs-6 > .row .loginPanelTitle {
