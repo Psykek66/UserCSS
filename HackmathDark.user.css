@@ -11,6 +11,10 @@
 
 @-moz-document url-prefix("https://www.hackmath.net/") {
 
+.navbar {
+    background-color: #000;
+    border-color: #303030;
+}
 .navbar-fixed-top {
     background-color: #050505;
     color: #888;
