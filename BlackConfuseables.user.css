@@ -1,0 +1,16 @@
+/* ==UserStyle==
+@name           Confuseables darker
+@version        1.0.0
+@description    Black theme for unicode's confuseables
+@author         Psykek/PrototypeChicken
+@namespace      github.com/Psykek66/UserCSS
+@homepageURL    https://github.com/Psykek66/UserCSS/blob/master/BlackConfuseables.user.css
+@updateURL      https://raw.githubusercontent.com/Psykek66/UserCSS/master/BlackConfuseables.user.css
+==/UserStyle== */
+
+@-moz-document url-prefix("https://www.unicode.org/Public/security/8.0.0/confusables.txt") {
+    html {
+        background-color: #000 !important;
+        color: #ccc !important;
+    }
+}
