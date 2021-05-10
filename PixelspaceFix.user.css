@@ -1,0 +1,17 @@
+/* ==UserStyle==
+@name           Pixelspace Fix
+@version        1.0.0
+@description    Simple fix for Joshworth's "If the Moon Were Only 1 Pixel" https://joshworth.com/dev/pixelspace/pixelspace_solarsystem.html
+@author         Psykek/PrototypeChicken
+@namespace      github.com/Psykek66/UserCSS
+@homepageURL    https://github.com/Psykek66/UserCSS/blob/master/PixelspaceFix.user.css
+@updateURL      https://raw.githubusercontent.com/Psykek66/UserCSS/master/PixelspaceFix.user.css
+==/UserStyle== */
+
+@-moz-document url-prefix("https://joshworth.com/dev/pixelspace/pixelspace_solarsystem.html") {
+    #uranuslabel::after {
+        content: " (heh)";
+        font-size: 14px;
+        text-transform: lowercase;
+    }
+}
