@@ -1,12 +1,19 @@
 /* ==UserStyle==
 @name           Google Forms Black
-@version        1.0.0
+@version        1.0.1
 @description    Black theme for Google Forms (when answering a form, not making one)
 @author         Psykek/PrototypeChicken
 @namespace      github.com/Psykek66/UserCSS
 @homepageURL    https://github.com/Psykek66/UserCSS/blob/master/GoogleFormsBlack.user.css
 @updateURL      https://raw.githubusercontent.com/Psykek66/UserCSS/master/GoogleFormsBlack.user.css
 ==/UserStyle== */
+
+/* ==== UPDATE LOG ==== 
+1.0.1
+ - Images in questions are now inverted (more often than not will fix invisible text or make black text on a white background, well, inverted (for my tests at least).) 
+ - Fixed incorrect highlighting on multiple choice questions (as in it is now dark instead of light)
+   ==== /UPDATE LOG ==== */
+
 @-moz-document domain("docs.google.com") {
     .freebirdFormviewerViewFormContentWrapper {
         background: url("https://i.imgur.com/lxbUIuN.jpg");
@@ -312,6 +319,15 @@
         background-color: #bbb !important;
     }
     .freebirdFormviewerViewItemsTextCorrect {
+        background-color: #202020 !important;
+    }
+    .freebirdFormviewerViewItemsEmbeddedobjectLeft .freebirdFormviewerViewItemsEmbeddedobjectImage {
+        filter: invert(1);
+    }
+    .freebirdFormviewerViewItemsEmbeddedobjectCenter .freebirdFormviewerViewItemsEmbeddedobjectImage {
+        filter: invert(1);
+    }
+    .freebirdFormviewerViewItemsRadioIncorrect {
         background-color: #202020 !important;
     }
 }
