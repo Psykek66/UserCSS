@@ -12,6 +12,7 @@
 1.0.1
  - Images in questions are now inverted (more often than not will fix invisible text or make black text on a white background, well, inverted (for my tests at least).) 
  - Fixed incorrect highlighting on multiple choice questions (as in it is now dark instead of light)
+ - Fixed some nearly invisible text
    ==== /UPDATE LOG ==== */
 
 @-moz-document domain("docs.google.com") {
@@ -329,5 +330,8 @@
     }
     .freebirdFormviewerViewItemsRadioIncorrect {
         background-color: #202020 !important;
+    }
+    .freebirdFormviewerViewResponseMessage {
+        color: #bbb !important;
     }
 }
